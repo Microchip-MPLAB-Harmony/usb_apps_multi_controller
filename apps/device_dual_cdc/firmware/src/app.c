@@ -588,7 +588,7 @@ void _AppTaskUsbDevice(APP_USB_DEVICE_OBJECT* deviceObject)
                 /* If the switch was pressed, then send the switch prompt*/
                 deviceObject->isSwitchPressed = false;
                 USB_DEVICE_CDC_Write(deviceObject->comObject.cdcInstance,
-                        &deviceObject->comObject.writeTransferHandle, switchPromptUSB, 23,
+                        &deviceObject->comObject.writeTransferHandle, switchPromptUSB, sizeof(switchPromptUSB),
                         USB_DEVICE_CDC_TRANSFER_FLAGS_DATA_COMPLETE);
             }
             else
