@@ -4,27 +4,27 @@
 	"content": {
 		"metaDataVersion": "1.1.0",
 		"name": "com.microchip.mcu32.mplabx.project.usb_apps_multi_controller_device_cdc_host_msd_pic32mk_gp_db",
-		"version": "3.0.0",
+		"version": "3.1.0",
 		"displayName": "CDC Device and MSD Host Example (device_cdc_host_msd) Example for PIC32MK Family",
 		"projectName": "device_cdc_host_msd_pic32mk_gp_db",
 		"shortDescription": "This application demonstrates USB Device and Host operation on a PIC32 microcontroller with two USB Controllers. One USB peripheral operates in USB Device mode and other peripheral operates in USB Host mode. This demonstrates capability of Harmony USB stack to work with multiple USB controllers.",
 		"ide": {
 			"name": "MPLABX",
-			"semverRange": ">=5.45.0"
+			"semverRange": ">=5.50.0"
 		},
 		"compiler": [
 			{
 				"name": "XC32",
-				"semverRange": ">=2.50.0"
+				"semverRange": ">=3.00.0"
 			}
 		],
 		"dfp": {
 			"name": "PIC32MK-GP_DFP",
-			"semverRange": "^1.4.117"
+			"semverRange": "^1.5.130"
 		},
 		"configurator": {
 			"name": "MHC",
-			"semverRange": ">=3.6.1"
+			"semverRange": ">=3.6.4"
 		},
 		"device": {
 			"metaDataVersion": "1.0.0",
