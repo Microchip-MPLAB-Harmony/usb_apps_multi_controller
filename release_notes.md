@@ -8,26 +8,30 @@ nav_order: 99
 
 # Microchip MPLAB® Harmony 3 Release Notes
 
-## Harmony 3 USB Multi-Controller application examples v3.0.1
+## Harmony 3 USB Multi-Controller application examples v3.1.0
 
-### New Features
+### Development kit and demo application support
 
-- None
+The following table provides the number of USB Multi-Controller examples available for different development kits.
 
-### Bug fixes
--   Updated MPLAB® Harmony 3 framework relative path for all MPLABX projects. 
--   Removed the compiler switch -Winline for all MPLABX projects. 
+| Development Kits  | MPLABX applications | IAR applications |
+| ----------------- | ------------------- | ---------------- |
+| [PIC32MK General Purpose (GP) Development Board](https://www.microchip.com/developmenttools/ProductDetails/dm320106)                  | 3  | 0 |
+| [PIC32MK MCM Curiosity Pro Development Board](https://www.microchip.com/Developmenttools/ProductDetails/EV31E34A)                     | 3  | 0 |
+
+### New Features and Enhancements
+
+- All demonstration applications are regnerated with MPLAB® Harmony USB v3.8.0
 
 ### Known Issues
 
-- None
+- None 
 
 ### Development Tools
 
--    [MPLAB® X IDE v5.45](https://www.microchip.com/mplab/mplab-x-ide)
--    [MPLAB® XC32 C/C++ Compiler v3.00](https://www.microchip.com/mplab/compilers)
--    [IAR Embedded Workbench® for ARM® v8.5](https://www.iar.com/iar-embedded-workbench/#!?architecture=Arm)
--   MPLAB® X IDE plug-ins:- MPLAB® Harmony 3 Launcher v3.6.4 or above
+- [MPLAB® X IDE v5.50](https://www.microchip.com/mplab/mplab-x-ide)
+- [MPLAB® XC32 C/C++ Compiler v3.00](https://www.microchip.com/mplab/compilers)
+- MPLAB® X IDE plug-ins:- MPLAB® Harmony 3 Launcher v3.6.4 or above
 
 ## Harmony 3 USB Multi-Controller application examples v3.0.0
 
@@ -37,7 +41,7 @@ nav_order: 99
 
 Following table provides number of USB Multi-Controller examples available for different development kits.
 
-| Development Kits  | MPLABx applications | IAR applications |
+| Development Kits  | MPLABX applications | IAR applications |
 | ----------------- | ------------------- | ---------------- |
 | [PIC32MK General Purpose (GP) Development Board](https://www.microchip.com/developmenttools/ProductDetails/dm320106)                  | 3  | 0 |
 | [PIC32MK MCM Curiosity Pro Development Board](https://www.microchip.com/Developmenttools/ProductDetails/EV31E34A)                     | 3  | 0 |

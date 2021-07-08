@@ -33,17 +33,17 @@ Following table gives the details of project configurations, target device used,
 ### <a name="config_12"></a> [PIC32MK General Purpose (GP) Development Board](https://www.microchip.com/developmenttools/ProductDetails/dm320106)
 
 - Switch S4 should be set to the Device position.
-- Jumper J28 must be removed.
-- USB Micro B Connector J12 must be connected to a USB Host for powering the board.
-- LED 2 on the demonstration board will illuminate to indicate completion of the file transfer.
+- Jumper J28 must be shorted.
+- USB Micro B Connector J2 must be connected to a USB Host for powering the board.
+- LED 1 on the demonstration board will illuminate to indicate completion of the file transfer.
 - USB Flash drives should be attached to Connector J15 (Type C connector) and J14 (Type A connector) after programming the microcontroller.
 
 ### <a name="config_18"></a> [PIC32MK MCM Curiosity Pro Development Board](https://www.microchip.com/Developmenttools/ProductDetails/EV31E34A)
 
 - Switch S200 should be set to the Device position.
-- Jumper J204 must be removed.
+- Jumper J204 must be shorted.
 - USB Micro B Connector J203 must be connected to a USB Host for powering the board.
-- LED 2 on the demonstration board will illuminate to indicate completion of the file transfer.
+- LED 1 on the demonstration board will illuminate to indicate completion of the file transfer.
 - USB Flash drives should be attached to Connector J202 (Type C connector) and J201 (Type A connector) after programming the microcontroller.
 
 ## Running the Application
