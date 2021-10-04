@@ -8,6 +8,22 @@ nav_order: 99
 
 # Microchip MPLAB® Harmony 3 Release Notes
 
+## Harmony 3 USB Multi-Controller application examples v3.2.0
+### Bug fixes
+-   [MPLAB® Discover portal](https://mplab-discover.microchip.com/) metadata for all demonstration application configurations have been updated. 
+
+### New Features and Enhancements
+
+- None
+
+### Known Issues
+
+- None 
+
+### Development Tools
+
+- Same as v3.1.0 
+
 ## Harmony 3 USB Multi-Controller application examples v3.1.1
 ### Bug fixes
 -   [MPLAB® Discover portal](https://mplab-discover.microchip.com/) metadata for all demonstration application configurations have been updated. 
@@ -30,7 +46,7 @@ nav_order: 99
 
 The following table provides the number of USB Multi-Controller examples available for different development kits.
 
-| Development Kits  | MPLABX applications | IAR applications |
+| Development Kits  | MPLAB X Applications | IAR Applications |
 | ----------------- | ------------------- | ---------------- |
 | [PIC32MK General Purpose (GP) Development Board](https://www.microchip.com/developmenttools/ProductDetails/dm320106)                  | 3  | 0 |
 | [PIC32MK MCM Curiosity Pro Development Board](https://www.microchip.com/Developmenttools/ProductDetails/EV31E34A)                     | 3  | 0 |
