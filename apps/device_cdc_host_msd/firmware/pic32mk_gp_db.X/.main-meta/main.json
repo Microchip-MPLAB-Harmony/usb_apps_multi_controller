@@ -4,7 +4,7 @@
 	"content": {
 		"metaDataVersion": "1.1.0",
 		"name": "com.microchip.mcu32.mplabx.project.usb_apps_multi_controller_device_cdc_host_msd_pic32mk_gp_db",
-		"version": "3.1.1",
+		"version": "3.2.0",
 		"displayName": "CDC Device and MSD Host Example (device_cdc_host_msd) Example for PIC32MK Family",
 		"projectName": "device_cdc_host_msd_pic32mk_gp_db",
 		"shortDescription": "This application demonstrates USB Device and Host operation on a PIC32 microcontroller with two USB Controllers. One USB peripheral operates in USB Device mode and other peripheral operates in USB Host mode. This demonstrates capability of Harmony USB stack to work with multiple USB controllers.",
@@ -15,7 +15,7 @@
 		"compiler": [
 			{
 				"name": "XC32",
-				"semverRange": ">=3.0.0"
+				"semverRange": ">=3.1.0"
 			}
 		],
 		"dfp": {
@@ -42,10 +42,10 @@
 				"Development Kit", "PIC32MK GP Development Kit"
 			],
 			[
-				"Harmony", "Middleware", "USB", "DEVICE_CDC_HOST_MSD"
+				"Harmony", "Middleware", "USB", "MULTI_CONTROLLER_DEVICE_CDC_HOST_MSD"
 			],
 			[
-				"Middleware", "USB", "DEVICE_CDC_HOST_MSD"
+				"Middleware", "USB", "MULTI_CONTROLLER_DEVICE_CDC_HOST_MSD"
 			]
 		],
 		"peripherals": [
