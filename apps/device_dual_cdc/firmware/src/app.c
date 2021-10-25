@@ -403,7 +403,7 @@ void __InitializeDeviceObject(uint8_t index)
     /* Initial get line coding state */
     appData.deviceObject[index].comObject.getLineCodingData.dwDTERate = 9600;
     appData.deviceObject[index].comObject.getLineCodingData.bParityType =  0;
-    appData.deviceObject[index].comObject.getLineCodingData.bParityType = 0;
+    appData.deviceObject[index].comObject.getLineCodingData.bCharFormat = 0;
     appData.deviceObject[index].comObject.getLineCodingData.bDataBits = 8;
 
     /* Read Transfer Handle */

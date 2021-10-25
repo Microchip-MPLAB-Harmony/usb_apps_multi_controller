@@ -417,7 +417,7 @@ void APP_Device_Initialize(void)
     /* Initial get line coding state */
     appData.getLineCodingData.dwDTERate = 9600;
     appData.getLineCodingData.bParityType = 0;
-    appData.getLineCodingData.bParityType = 0;
+    appData.getLineCodingData.bCharFormat = 0;
     appData.getLineCodingData.bDataBits = 8;
 
     /* Read Transfer Handle */
