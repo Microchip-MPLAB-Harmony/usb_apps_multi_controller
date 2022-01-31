@@ -246,6 +246,7 @@
         <itemPath>../src/config/pic32mk_gp_db/pic32mk_gp_db.mhc/usb_host_msd.yml</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
+      <itemPath>device_cdc_host_msd_pic32mk_gp_db</itemPath>
       <itemPath>../src/config/pic32mk_gp_db/harmony-manifest-success.yml</itemPath>
     </logicalFolder>
     <logicalFolder displayName="Linker Files" name="LinkerScript" projectFiles="true">

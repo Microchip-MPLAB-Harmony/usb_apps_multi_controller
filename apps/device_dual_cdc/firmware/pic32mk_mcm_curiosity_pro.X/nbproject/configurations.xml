@@ -208,6 +208,7 @@
         <itemPath>../src/config/pic32mk_mcm_curiosity_pro/pic32mk_mcm_curiosity_pro.mhc/usb_device_cdc.yml</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
+      <itemPath>device_dual_cdc_pic32mk_mcm_curiosity_pro</itemPath>
       <itemPath>../src/config/pic32mk_mcm_curiosity_pro/harmony-manifest-success.yml</itemPath>
     </logicalFolder>
     <logicalFolder displayName="Linker Files" name="LinkerScript" projectFiles="true">
