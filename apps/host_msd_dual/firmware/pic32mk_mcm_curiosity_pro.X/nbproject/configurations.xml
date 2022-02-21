@@ -245,7 +245,6 @@
         <itemPath>../src/config/pic32mk_mcm_curiosity_pro/pic32mk_mcm_curiosity_pro.mhc/usb_host_msd.yml</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>host_msd_dual_pic32mk_mcm_curiosity_pro</itemPath>
       <itemPath>../src/config/pic32mk_mcm_curiosity_pro/harmony-manifest-success.yml</itemPath>
       <itemPath>host_msd_dual_pic32mk_mcm_curiosity_pro.mc3</itemPath>
     </logicalFolder>

@@ -241,7 +241,6 @@
         <itemPath>../src/config/pic32mk_gp_db/pic32mk_gp_db.mhc/usb_host_msd.yml</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>host_msd_dual_pic32mk_gp_db</itemPath>
       <itemPath>../src/config/pic32mk_gp_db/harmony-manifest-success.yml</itemPath>
       <itemPath>host_msd_dual_pic32mk_gp_db.mc3</itemPath>
     </logicalFolder>
