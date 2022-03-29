@@ -4,27 +4,27 @@
 	"content": {
 		"metaDataVersion": "1.1.0",
 		"name": "com.microchip.mcu32.mplabx.project.usb_apps_multi_controller_device_dual_cdc_pic32mk_mcm_curiosity_pro",
-		"version": "3.2.0",
+		"version": "3.3.0",
 		"displayName": "Dual CDC Device Example (device_dual_cdc) Example for PIC32MK Family",
 		"projectName": "device_dual_cdc_pic32mk_mcm_curiosity_pro",
 		"shortDescription": "This application demonstrates Multiple USB Device operation on a PIC32 microcontroller with two USB Controllers. Both the USB peripherals operate in USB CDC Device mode. This demonstrates capability of Harmony USB stack to work with multiple USB controllers.",
 		"ide": {
 			"name": "MPLABX",
-			"semverRange": ">=5.50.0"
+			"semverRange": ">=6.00.0"
 		},
 		"compiler": [
 			{
 				"name": "XC32",
-				"semverRange": ">=3.1.0"
+				"semverRange": ">=4.0.0"
 			}
 		],
 		"dfp": {
 			"name": "PIC32MK-MC_DFP",
-			"semverRange": "^1.5.130"
+			"semverRange": "^1.9.143"
 		},
 		"configurator": {
-			"name": "MHC",
-			"semverRange": ">=3.6.4"
+			"name": "MCC",
+			"semverRange": ">=5.1.1"
 		},
 		"device": {
 			"metaDataVersion": "1.0.0",
