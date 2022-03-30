@@ -8,6 +8,33 @@ nav_order: 99
 
 # Microchip MPLAB® Harmony 3 Release Notes
 
+## Harmony 3 USB Multi-Controller application examples v3.3.0
+
+### Development kit and demo application support
+
+The following table provides the number of USB Multi-Controller examples available for different development kits.
+
+| Development Kits  | MPLAB X Applications | IAR Applications |
+| ----------------- | ------------------- | ---------------- |
+| [PIC32MK General Purpose (GP) Development Board](https://www.microchip.com/developmenttools/ProductDetails/dm320106)                  | 3  | 0 |
+| [PIC32MK MCM Curiosity Pro Development Board](https://www.microchip.com/Developmenttools/ProductDetails/EV31E34A)                     | 3  | 0 |
+
+### New Features and Enhancements
+
+- Added MPLAB® Code Configurator (MCC) configurations for all demonstration configurations. 
+- Updated CDC Driver packages.
+
+### Known Issues
+
+- None 
+
+### Development Tools
+
+-    [MPLAB® X IDE v6.00](https://www.microchip.com/mplab/mplab-x-ide)
+-    [MPLAB® XC32 C/C++ Compiler v4.00](https://www.microchip.com/mplab/compilers)
+-    [IAR Embedded Workbench® for ARM® v8.5](https://www.iar.com/iar-embedded-workbench/#!?architecture=Arm)
+-   MPLAB® X IDE plug-ins:- MPLAB® Code Configurator (MCC) v5.1.1 or above
+
 ## Harmony 3 USB Multi-Controller application examples v3.2.0
 ### Bug fixes
 -   [MPLAB® Discover portal](https://mplab-discover.microchip.com/) metadata for all demonstration application configurations have been updated. 
