@@ -20,7 +20,8 @@ This application demonstrates Multiple USB Host operation on a PIC32 microcontro
 To clone or download this application from Github, go to the [main page of this repository](https://github.com/Microchip-MPLAB-Harmony/usb_apps_multi_controller) and then click **Clone** button to clone this repository or download as zip file.
 This content can also be downloaded using content manager by following these [instructions](https://github.com/Microchip-MPLAB-Harmony/contentmanager/wiki).
 
-Path of the application within the repository is [usb_apps_multi_controller/apps/host_msd_dual](https://github.com/Microchip-MPLAB-Harmony/usb_apps_multi_controller/apps/host_msd_dual).
+Path of the application within the repository is [usb_apps_multi_controller/apps/host_msd_dual](https://github.com/Microchip-MPLAB-Harmony/usb_apps_multi_controller/tree/master/apps/host_msd_dual).
+
 Following table gives the details of project configurations, target device used, hardware and its IDE. Open the project using the respective IDE and build it. 
 
 | Project Name                    | IDE    | Target Device       | Hardware / Configuration                                                   |
