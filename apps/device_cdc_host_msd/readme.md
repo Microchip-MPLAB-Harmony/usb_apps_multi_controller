@@ -28,8 +28,19 @@ Following table gives the details of project configurations, target device used,
 | ------------------------------- | ------ | ------------------- | -------------------------------------------------------------------------- |
 | pic32mk_gp_db.X                 | MPLABX | PIC32MK1024GPE100   | [PIC32MK General Purpose (GP) Development Board](#config_12)               |
 | pic32mk_mcm_curiosity_pro.X     | MPLABX | PIC32MK1024MCM100   | [PIC32MK MCM Curiosity Pro Development Board](#config_18)|
+| pic32cz_ca80_curiosity_ultra.X  | MPLABX | PIC32CZ8110CA80208  | [PIC32CZ Curiosity Development Board](#config_23)           |
 
 ## <a name="config_title"></a> Configuring the Hardware
+
+### <a name="config_23"></a> PIC32CZ CA80 Curiosity Development Board
+- Board must be powered by J100.
+- USBHS0 Peripheral (Micro-AB connector - J102) operates in USB Host mode.
+    - USB Flash drives should be attached to J102 using a USB Type-A Female to micro-B male cable (This cable is not included in the kit). 
+    - LED1 on the demonstration board will illuminate to indicate completion of the file transfer.
+- USBHS1 Peripheral operates (Type C connector - J103) operates in USB Device mode
+    - Connect J103 to a Host PC.
+    - LED0 indicates USB Device Configuration Set Complete event (the USB device functionality has been activated by the USB Host).
+    - Press switch SW 0 to trigger communication from the USB Device to the USB Host.
 
 ### <a name="config_12"></a> [PIC32MK General Purpose (GP) Development Board](https://www.microchip.com/developmenttools/ProductDetails/dm320106)
 
