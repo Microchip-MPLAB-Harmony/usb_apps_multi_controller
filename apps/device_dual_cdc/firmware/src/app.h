@@ -142,8 +142,8 @@ typedef struct
 
     /* True if a character was written*/
     bool isWriteComplete;
-	
-	/* Number of bytes read from Host */ 
+
+    /* Number of bytes read from Host */ 
     uint32_t numBytesRead; 
     
     /* Application CDC read buffer */
@@ -175,6 +175,8 @@ typedef struct
     unsigned int debounceCount;
     
     APP_COM_PORT_OBJECT comObject; 
+    
+    unsigned int readBuffersize;
 } APP_USB_DEVICE_OBJECT;
 // *****************************************************************************
 /* Application Data
@@ -194,7 +196,8 @@ typedef struct
     /* Application's current state*/
     APP_STATES state;
 
-    APP_USB_DEVICE_OBJECT deviceObject[2]; 
+    APP_USB_DEVICE_OBJECT deviceObject[2];
+    
 } APP_DATA;
 
 
@@ -206,7 +209,7 @@ typedef struct
 /* These routines are called by drivers when certain events occur.
 */
 
-	
+
 // *****************************************************************************
 // *****************************************************************************
 // Section: Application Initialization and State Machine Functions

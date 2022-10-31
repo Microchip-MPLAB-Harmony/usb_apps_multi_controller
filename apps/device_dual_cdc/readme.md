@@ -28,7 +28,7 @@ Following table gives the details of project configurations, target device used,
 | ------------------------------- | ------ | ------------------- | -------------------------------------------------------------------------- |
 | pic32mk_gp_db.X                 | MPLABX | PIC32MK1024GPE100   | [PIC32MK General Purpose (GP) Development Board](#config_12)               |
 | pic32mk_mcm_curiosity_pro.X     | MPLABX | PIC32MK1024MCM100   | [PIC32MK MCM Curiosity Pro Development Board](#config_18)|
-
+| pic32cz_ca80_curiosity_ultra.X  | MPLABX | PIC32CZ8110CA80208  | [PIC32CZ Curiosity Development Board](#config_23) 
 ## <a name="config_title"></a> Configuring the Hardware
 
 ### <a name="config_12"></a> [PIC32MK General Purpose (GP) Development Board](https://www.microchip.com/developmenttools/ProductDetails/dm320106)
@@ -60,6 +60,17 @@ Following table gives the details of project configurations, target device used,
 - Press switch to trigger communication from the USB Device to the USB Host.
     - SW1 - USB Peripheral 1 (USB Micro B connector - J200)
     - SW2 - USB Peripheral 2 (USB Type C connector - J202)
+
+### <a name="config_23"></a> PIC32CZ Curiosity Development Board
+- Connect the following USB connectors on the board to the USB Host PC:
+    - J102 - USBHSO (USB Micro B connector located on the bottom side of the board)
+    - J103 - USBHS1 (USB Type C connector)
+- The following LEDs indicates USB Device Configuration Set Complete event (the USB device functionality has been activated by the USB Host):
+    - LED0 - USBHSO (USB Micro B connector - J102)
+    - LED1 - USBHS1 (USB Type C connector - J103)
+- Press the following switches to trigger communication from the USB Device to the USB Host:
+    - SW0 - USBHS0 (USB Micro B connector - J102)
+    - SW1 - USBHS1 (USB Type C connector - J103)
 
 ## Running the Application
 

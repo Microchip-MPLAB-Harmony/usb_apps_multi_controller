@@ -61,12 +61,13 @@ SUBSTITUTE GOODS, TECHNOLOGY, SERVICES, OR ANY CLAIMS BY THIRD PARTIES
 // Section: Global Data Definitions
 // *****************************************************************************
 // *****************************************************************************
-#define APP_READ_BUFFER_SIZE 64
+#define APP_READ_BUFFER_SIZE 512
 #define APP_USB_SWITCH_DEBOUNCE_COUNT_FS                    150
 #define APP_USB_SWITCH_DEBOUNCE_COUNT_HS                    1200
 uint8_t __attribute__((aligned(16))) switchPromptUSB[] = "\r\nPUSH BUTTON PRESSED";
 
 uint8_t CACHE_ALIGN readBuffer[2][APP_READ_BUFFER_SIZE];
+
 
 // *****************************************************************************
 /* Application Data
@@ -482,6 +483,7 @@ void APP_Tasks (void )
                 /* Register a callback with device layer to get event notification (for end point 0) */
                 USB_DEVICE_EventHandlerSet(appData.deviceObject[1].deviceHandle, APP_USBDeviceEventHandler,(uintptr_t)&appData.deviceObject[1]);
                 
+               
                 appData.state = APP_STATE_RUN; 
                 appData.deviceObject[0].state = APP_STATE_WAIT_FOR_CONFIGURATION;
                 appData.deviceObject[1].state = APP_STATE_WAIT_FOR_CONFIGURATION;
@@ -515,6 +517,15 @@ void _AppTaskUsbDevice(APP_USB_DEVICE_OBJECT* deviceObject)
             /* Check if the device was configured */
             if(deviceObject->isConfigured)
             {
+                 if (USB_DEVICE_ActiveSpeedGet(deviceObject->deviceHandle) == USB_SPEED_FULL)
+                {
+                    deviceObject->readBuffersize = 64 ;
+                }
+                else if (USB_DEVICE_ActiveSpeedGet(deviceObject->deviceHandle) == USB_SPEED_HIGH)
+                {
+                    deviceObject->readBuffersize = 512 ;
+                }
+               
                deviceObject->state = APP_STATE_SCHEDULE_READ; 
             }
             
@@ -538,7 +549,7 @@ void _AppTaskUsbDevice(APP_USB_DEVICE_OBJECT* deviceObject)
 
                 USB_DEVICE_CDC_Read (deviceObject->comObject.cdcInstance,
                         &deviceObject->comObject.readTransferHandle, deviceObject->comObject.readBuffer,
-                        APP_READ_BUFFER_SIZE);
+                        deviceObject->readBuffersize);
                 
                 if(deviceObject->comObject.readTransferHandle == USB_DEVICE_CDC_TRANSFER_HANDLE_INVALID)
                 {
