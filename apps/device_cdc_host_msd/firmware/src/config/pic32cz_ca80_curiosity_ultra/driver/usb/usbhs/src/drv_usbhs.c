@@ -103,9 +103,24 @@ SYS_MODULE_OBJ DRV_USBHS_Initialize
         {
             usbInit = (DRV_USBHS_INIT *) init;
 
-            /* No change required */
-            usbID = usbInit->usbID;
-            
+            /* User needs to assign the peripheral ID of the USB HS module to
+             * the usbID member of the DRV_USBHS_INIT structure. Peripheral ID
+             * assigned should be one of the member of USBHS_MODULE_ID
+             * enumeration. The following code is to provide backward
+             * compatibility with the applications where they have specified
+             * usbID as 0. */ 
+
+            if ( 0 == usbInit->usbID )
+            {
+                /* For the optimized PLIBs, USBHS_ID_X is a pointer to USB
+                 * module base address. */
+                usbID = USBHS_ID_0; 
+            }
+            else
+            {
+                /* No change required */
+                usbID = usbInit->usbID;
+            }
 
             drvObj = &gDrvUSBObj[drvIndex];
 
@@ -207,9 +222,9 @@ void DRV_USBHS_Tasks
 				
 		    case DRV_USBHS_TASK_STATE_WAITING_FOR_IS_SOFTRESET_COMPLETE :
                 if (((((usbhs_registers_t*)usbID)->ENDPOINT0.USBHS_SYNCBUSY & USBHS_SYNCBUSY_ENABLE_Msk) == 0)
-                    && ((((usbhs_registers_t*)usbID)->ENDPOINT0.USBHS_STATUS & USBHS_STATUS_PHYRDY_Msk) == 0))
-                {
-                    /* Reset completed so Move to the next state */
+                    && ((((usbhs_registers_t*)usbID)->ENDPOINT0.USBHS_SYNCBUSY & USBHS_STATUS_PHYRDY_Msk) == 0))
+				{
+					/* Reset completed so Move to the next state */
                     hDriver->usbDrvCommonObj.state = DRV_USBHS_TASK_STATE_MODULE_INIT;
 				}
 			    break;
@@ -499,7 +514,7 @@ SYS_STATUS DRV_USBHS_Status
     
   Summary:
     Opens the specified Hi-Speed USB Driver instance and returns a handle to it.
-
+	
   Description:
     This function opens the specified Hi-Speed USB Driver instance and provides a
     handle that must be provided to all other client-level operations to

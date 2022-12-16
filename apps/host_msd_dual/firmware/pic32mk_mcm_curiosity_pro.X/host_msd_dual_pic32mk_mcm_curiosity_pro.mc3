@@ -1,5 +1,21 @@
-<config configName="pic32mk_mcm_curiosity_pro" projectName="host_msd_dual_pic32mk_mcm_curiosity_pro" configVersion="1.1" device="PIC32MK1024MCM100" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.1">
-   <usedPackages class="java.util.ArrayList"/>
+<config configName="pic32mk_mcm_curiosity_pro" projectName="host_msd_dual_pic32mk_mcm_curiosity_pro" configVersion="1.1" device="PIC32MK1024MCM100" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.14">
+   <usedPackages class="java.util.ArrayList">
+      <package packageName="bsp" version="3.15.0-E1" contentType="HARMONY">
+         <modules class="java.util.ArrayList"/>
+      </package>
+      <package packageName="core" version="3.11.1" contentType="HARMONY">
+         <modules class="java.util.ArrayList"/>
+      </package>
+      <package packageName="csp" version="3.15.0-E1" contentType="HARMONY">
+         <modules class="java.util.ArrayList"/>
+      </package>
+      <package packageName="dev_packs" version="3.15.0-E1" contentType="HARMONY">
+         <modules class="java.util.ArrayList"/>
+      </package>
+      <package packageName="usb" version="" contentType="HARMONY">
+         <modules class="java.util.ArrayList"/>
+      </package>
+   </usedPackages>
    <usedClasses class="java.util.TreeMap">
       <entry>
          <string>BSP_PIC32MK_MCM_Curiosity_Pro</string>
@@ -59,7 +75,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.0.8"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.1.3"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -3672,17 +3688,6 @@
 </value>
       </entry>
       <entry>
-         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="usb_host" name="CONFIG_USB_HOST_DEVICES_NUMNBER"/>
-         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;usb_host&gt;
-  &lt;usb_host dnOrder=&quot;0&quot; id=&quot;CONFIG_USB_HOST_DEVICES_NUMNBER&quot;&gt;
-    &lt;Values dnOrder=&quot;0&quot;&gt;
-      &lt;User dnOrder=&quot;0&quot; value=&quot;2&quot;/&gt;
-    &lt;/Values&gt;
-  &lt;/usb_host&gt;
-&lt;/usb_host&gt;
-</value>
-      </entry>
-      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="usb_host" name="CONFIG_USB_HOST_MAX_INTERFACES"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;usb_host&gt;
   &lt;usb_host dnOrder=&quot;0&quot; id=&quot;CONFIG_USB_HOST_MAX_INTERFACES&quot;&gt;
@@ -3779,7 +3784,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\system\fs\fat_fs\file_system\ff.h</file>
-         <hash>910fa58ceb264c7e03edce224b6484fc2fba3c8d6656975e3c01cd45cdc5d4b3</hash>
+         <hash>d7b45a8f01fcd9923e18f8618408613021f2d36f35c632de31edaf5f4acf6c6b</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\system\int\sys_int.h</file>
@@ -3795,7 +3800,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\configuration.h</file>
-         <hash>55523eca7d93fc2dd673a3c679c35ba8a96a4b08e55d829bdfad60802839e47a</hash>
+         <hash>b7d2e827114d3bb6257ce52c73eb9c6f4125310829b33f580d1fc8a77a453251</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\driver\usb\usbfs\src\templates\usb_EPnControlTransfer_Default.h</file>
@@ -3815,11 +3820,11 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\system\fs\fat_fs\file_system\ff.c</file>
-         <hash>89210dcb75cae2c2c9cf5e835ccd0b5a8dd5860ac9f79661207076b9a4d709e0</hash>
+         <hash>ef75bad24073ec54d3e76b06b26c56b604bb4f063fe6bd9ebe7c80bae94fd6d5</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\usb_host_init_data.c</file>
-         <hash>aaa93089f8cee140747071a1a1147b9842eafb9f727db26c7f5b578c969d2f1d</hash>
+         <hash>ba094c4e2ecb1c6532629293f107e1e80fcd5a7a508e1f0a99aae2ebebb1ede7</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\peripheral\coretimer\plib_coretimer.h</file>
@@ -3903,7 +3908,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\system\time\src\sys_time_local.h</file>
-         <hash>a761ad68ce0cbac8c326bd17e54cc01d10324ed8d5e120ef092856a21604b6a2</hash>
+         <hash>d3ef06b59d9a89efe9e8eb54fcf3b75120d56156cc21f6847ca4f9e902eb7c9d</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\usb\src\usb_host_scsi.c</file>
@@ -3931,7 +3936,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\definitions.h</file>
-         <hash>a6d21685cafd381cbe97324ca61109381ab2eb2d894bc79bc727d42725f1c026</hash>
+         <hash>690d8bbc38c3bfbd0a7a0cfad1bcc802bffc450704db2712382c2d92e6244f22</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\driver\usb\usbfs\src\templates\usb_BDTBaseAddress_Default.h</file>
@@ -3947,7 +3952,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\p32MK1024MCM100.ld</file>
-         <hash>36383c79df5175768ec0196f0637d86a1774d3ae0a9afaed9b6e470ab8bbf83e</hash>
+         <hash>fd47bd624612f16402f25f713f60a80f1f31f37401494c32b9599f942f732385</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\driver\usb\usbfs\src\templates\usb_AutomaticSuspend_Default.h</file>
@@ -3991,7 +3996,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\system\fs\sys_fs.h</file>
-         <hash>46a5946f727b22530f0e0945a33cad93077c7b92c1bb2811959709ba7be60e9c</hash>
+         <hash>c3bce19e69290a393dca6f7ddbdb103ed7cf21be40f492fdfea185eb85ecbb93</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\driver\usb\usbfs\src\templates\usb_FrameNumber_Default.h</file>
@@ -4023,11 +4028,11 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\usb\usb_host.h</file>
-         <hash>8fe091b3db430b897da28d7f7effb6fffbb882d025c878a54cc5e627909a8cc2</hash>
+         <hash>4ec16dee42ae6b1bad8a7199b44750ccf0c5fa3aee5e44766e7b6dffc9979e83</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\system\debug\sys_debug.h</file>
-         <hash>970de73fb9806906b5429168c66ab403309d8a9cad46febab875a5e6d071525e</hash>
+         <hash>16fbc4bbf026e4713e9b835b1511411e053aaf92ab7d6a000638630576fe92b3</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\driver\usb\usbfs\src\templates\usb_OTG_ASessionValid_Default.h</file>
@@ -4163,7 +4168,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\peripheral\evic\plib_evic.c</file>
-         <hash>d765cd0cacb057e96eeafc2414de4a0a0d927b488f92a05ab2e855a457a87ecf</hash>
+         <hash>746ff9f630430688398828a65e97cec28c430ecda7be40c1df5494cb4727166c</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\driver\usb\drv_usb_external_dependencies.h</file>
@@ -4183,7 +4188,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\system\time\src\sys_time.c</file>
-         <hash>ddec1a83e32b63552ae72f884dc849e376b60d411669554f7ec492fff180662f</hash>
+         <hash>b722ac0c5d955d289bd906609ab6f302342166c5ba66f87b30cac17ac6bfdcd9</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\driver\usb\usbfs\src\templates\usb_EPnTxRx_Default.h</file>
@@ -4235,7 +4240,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\peripheral\gpio\plib_gpio.c</file>
-         <hash>d99f4c5c51f64952d3d7396ba4899a9fd81f8027e310a2687c9149e582bf2490</hash>
+         <hash>15adac69127545738c9ff9ea0ad0cd57f4840de51019b145ac096dfce6fc8a05</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\driver\usb\usbfs\src\templates\usb_NextTokenSpeed_Default.h</file>
@@ -4243,11 +4248,11 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\tasks.c</file>
-         <hash>9c08e44298a2783bbc620ec5ae0ef7202032f1020766f33d394a1afd721ad4eb</hash>
+         <hash>53d7ba972cb0fde28c4c20dee2dfefbd9f57c36b44662d1558a7dd248113bcaa</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\peripheral\gpio\plib_gpio.h</file>
-         <hash>b6c3fdc453360b84c4e9c6b07c05faea70079f319709f2c5a624671bba2120ad</hash>
+         <hash>3b6ef0f8e715834bf20fe41fb36e355100885daf4a93a4b3c1e717f7b06d6b2c</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\driver\usb\usbfs\src\templates\usb_HostGeneratesReset_Default.h</file>
@@ -4267,7 +4272,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\bsp\bsp.h</file>
-         <hash>43d9ed514d5572b8f65b0d4ae543d7c63179c453abebda13316943c9abe5a65a</hash>
+         <hash>1707343939bfbe9ca578d67385d030916e49b165c77208fcdf2a032255ea12be</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\driver\usb\usbfs\src\templates\usb_ERR_InterruptStatus_Default.h</file>
@@ -4331,7 +4336,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\system\fs\sys_fs_media_manager.h</file>
-         <hash>6cb6bdb605ca6e8b9e683671cffadbbc26a1f686e3eaedc74a6cba860e8ac3c4</hash>
+         <hash>29bda64831783de33b10c3841e1eb703dc9f5b04287c1e26af8f3b75b7197b39</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\system\fs\src\sys_fs_local.h</file>
@@ -4347,7 +4352,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\stdio\xc32_monitor.c</file>
-         <hash>26e5749db654ed433fd94f6c732ef8600d0cbf5196493374cf111877c02b694e</hash>
+         <hash>858f8710d4287200a5ee7f3b3ad7c24f505aed9c05c16956ab0ff9f7bb162a6a</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\driver\usb\usbfs\src\templates\usb_GEN_Interrupt_Default.h</file>
@@ -4467,11 +4472,11 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\system\fs\fat_fs\file_system\ffconf.h</file>
-         <hash>362b16c509f5f5d3c6122d8656718a09ae80cdfe77710fc1c735991b94e8bf69</hash>
+         <hash>3b4332b64fb29bbd794cf590236dbc46ee991a8b8a8320b6230b77cc9664c8e1</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\initialization.c</file>
-         <hash>d5538af4671d4727e330963243f72484b5eca03b92c5ffe0f48208e423bfdb15</hash>
+         <hash>761e1cda2a6cfd0bd4b2cf0330dff471944dc28f26a6616ac8a43693eaa49d2d</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\system\system_common.h</file>
@@ -4491,7 +4496,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\system\fs\src\sys_fs.c</file>
-         <hash>25d27349ac93f74a60186c235b8b1d7f6a4c25c53c97642f0df93109a2a6241d</hash>
+         <hash>aba5ae4d2d52843de0d236941838bd3ff6428f6acade1fb5ef923b2aa7615968</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\driver\usb\usbfs\src\templates\usb_StopInIdle_Default.h</file>

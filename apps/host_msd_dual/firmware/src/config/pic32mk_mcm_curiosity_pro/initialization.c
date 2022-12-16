@@ -372,6 +372,8 @@ const SYS_TIME_INIT sysTimeInitData =
 
 void SYS_Initialize ( void* data )
 {
+    /* MISRAC 2012 deviation block start */
+    /* MISRA C-2012 Rule 2.2 deviated in this file.  Deviation record ID -  H3_MISRAC_2012_R_2_2_DR_1 */
 
     /* Start out with interrupts disabled before configuring any modules */
     __builtin_disable_interrupts();
@@ -402,7 +404,7 @@ void SYS_Initialize ( void* data )
 	/* Initialize USB Driver */ 
     sysObj.drvUSBFSObject1 = DRV_USBFS_Initialize(DRV_USBFS_INDEX_1, (SYS_MODULE_INIT *) &drvUSBFSInit1);	
 
-	/* Initialize the USB Host layer */
+    /* Initialize the USB Host layer */
     sysObj.usbHostObject0 = USB_HOST_Initialize (( SYS_MODULE_INIT *)& usbHostInitData );	
 
     /*** File System Service Initialization Code ***/
@@ -418,6 +420,7 @@ void SYS_Initialize ( void* data )
     __builtin_enable_interrupts();
 
 
+    /* MISRAC 2012 deviation block end */
 }
 
 

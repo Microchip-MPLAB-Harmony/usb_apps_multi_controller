@@ -81,7 +81,7 @@ SYS_FS_Tasks();
     
 
     /* Maintain Middleware & Other Libraries */
-    	/* USB Device layer tasks routine */ 
+        /* USB Device layer tasks routine */ 
     USB_DEVICE_Tasks(sysObj.usbDevObject0);
 
     /* USB FS Driver Task Routine */ 
@@ -90,8 +90,8 @@ SYS_FS_Tasks();
     /* USB FS Driver Task Routine */ 
     DRV_USBFS_Tasks(sysObj.drvUSBFSObject1);
 
-	/* USB Host Task Routine */ 
-     USB_HOST_Tasks(sysObj.usbHostObject0);
+    /* USB Host Task Routine */ 
+    USB_HOST_Tasks(sysObj.usbHostObject0);
 
 
 

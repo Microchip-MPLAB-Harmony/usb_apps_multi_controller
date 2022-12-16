@@ -235,6 +235,8 @@ const DRV_USBFS_INIT drvUSBFSInit1 =
 
 void SYS_Initialize ( void* data )
 {
+    /* MISRAC 2012 deviation block start */
+    /* MISRA C-2012 Rule 2.2 deviated in this file.  Deviation record ID -  H3_MISRAC_2012_R_2_2_DR_1 */
 
     /* Start out with interrupts disabled before configuring any modules */
     __builtin_disable_interrupts();
@@ -258,16 +260,14 @@ void SYS_Initialize ( void* data )
 
 
 
-	 /* Initialize the USB device layer */
+    /* Initialize the USB device layer */
     sysObj.usbDevObject1 = USB_DEVICE_Initialize (USB_DEVICE_INDEX_1 , ( SYS_MODULE_INIT* ) & usbDevInitData1);
-	
-	
 
 
-	 /* Initialize the USB device layer */
+
+    /* Initialize the USB device layer */
     sysObj.usbDevObject0 = USB_DEVICE_Initialize (USB_DEVICE_INDEX_0 , ( SYS_MODULE_INIT* ) & usbDevInitData0);
-	
-	
+
 
 	/* Initialize USB Driver */ 
     sysObj.drvUSBFSObject0 = DRV_USBFS_Initialize(DRV_USBFS_INDEX_0, (SYS_MODULE_INIT *) &drvUSBFSInit0);	
@@ -285,6 +285,7 @@ void SYS_Initialize ( void* data )
     __builtin_enable_interrupts();
 
 
+    /* MISRAC 2012 deviation block end */
 }
 
 
