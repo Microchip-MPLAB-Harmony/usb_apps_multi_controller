@@ -59,10 +59,10 @@
 #include "driver/usb/usbfs/drv_usbfs.h"
 #include "driver/usb/usbfs/drv_usbfs.h"
 #include "system/time/sys_time.h"
-#include "usb/usb_device_cdc.h"
-#include "usb/usb_cdc.h"
 #include "usb/usb_chapter_9.h"
 #include "usb/usb_host.h"
+#include "usb/usb_device_cdc.h"
+#include "usb/usb_cdc.h"
 #include "peripheral/coretimer/plib_coretimer.h"
 #include "bsp/bsp.h"
 #include "system/fs/sys_fs.h"
@@ -85,6 +85,12 @@ extern "C" {
 
 #endif
 // DOM-IGNORE-END
+
+/* Device Information */
+#define DEVICE_NAME			 "PIC32MK1024MCM100"
+#define DEVICE_ARCH			 "MIPS"
+#define DEVICE_FAMILY		 "PIC32MK1519"
+#define DEVICE_SERIES		 "PIC32MK"
 
 /* CPU clock frequency */
 #define CPU_CLOCK_FREQUENCY 96000000

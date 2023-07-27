@@ -57,6 +57,10 @@
 // *****************************************************************************
 // *****************************************************************************
 
+void CORE_TIMER_InterruptHandler( void );
+void DRV_USBFS_USB1_Handler( void );
+void DRV_USBFS_USB2_Handler( void );
+
 
 
 #endif // INTERRUPTS_H
