@@ -186,6 +186,7 @@
           <itemPath>../src/config/pic32mk_mcm_curiosity_pro/definitions.h</itemPath>
           <itemPath>../src/config/pic32mk_mcm_curiosity_pro/user.h</itemPath>
           <itemPath>../src/config/pic32mk_mcm_curiosity_pro/configuration.h</itemPath>
+          <itemPath>../src/config/pic32mk_mcm_curiosity_pro/sys_tasks.h</itemPath>
           <itemPath>../src/config/pic32mk_mcm_curiosity_pro/device.h</itemPath>
           <itemPath>../src/config/pic32mk_mcm_curiosity_pro/interrupts.h</itemPath>
         </logicalFolder>
