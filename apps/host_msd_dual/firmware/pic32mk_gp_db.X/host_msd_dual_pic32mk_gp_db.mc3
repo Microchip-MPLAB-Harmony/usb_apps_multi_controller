@@ -3139,6 +3139,17 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sys_fs" name="SYS_FS_FAT_EXFAT_ENABLE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sys_fs&gt;
+  &lt;sys_fs dnOrder=&quot;0&quot; id=&quot;SYS_FS_FAT_EXFAT_ENABLE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;true&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/sys_fs&gt;
+&lt;/sys_fs&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sys_fs" name="SYS_FS_IDX0"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sys_fs&gt;
   &lt;sys_fs dnOrder=&quot;0&quot; id=&quot;SYS_FS_IDX0&quot;&gt;
@@ -3193,6 +3204,22 @@
   &lt;sys_fs dnOrder=&quot;0&quot; id=&quot;SYS_FS_INSTANCES_NUMBER&quot;&gt;
     &lt;Values dnOrder=&quot;0&quot;&gt;
       &lt;User dnOrder=&quot;0&quot; value=&quot;2&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/sys_fs&gt;
+&lt;/sys_fs&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sys_fs" name="SYS_FS_LFN_ENABLE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sys_fs&gt;
+  &lt;sys_fs dnOrder=&quot;0&quot; id=&quot;SYS_FS_LFN_ENABLE&quot;&gt;
+    &lt;Attributes dnOrder=&quot;0&quot;&gt;
+      &lt;Boolean dnOrder=&quot;0&quot; id=&quot;readOnly&quot;&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
+      &lt;/Boolean&gt;
+    &lt;/Attributes&gt;
+    &lt;Values dnOrder=&quot;1&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;sys_fs&quot; value=&quot;true&quot;/&gt;
     &lt;/Values&gt;
   &lt;/sys_fs&gt;
 &lt;/sys_fs&gt;
@@ -3639,12 +3666,12 @@
          <hash>0800407f96ffa4dc6bf367b5afe2fd85fd8f785fa8f0f9c238339038347df54b</hash>
       </entry>
       <entry>
-         <file>..\src\config\pic32mk_gp_db\usb\src\usb_external_dependencies.h</file>
-         <hash>5110f718908d8f79253ce5b4b44172288cc179ff61d18e387f9e90ae9afbb1b6</hash>
-      </entry>
-      <entry>
          <file>..\src\config\pic32mk_gp_db\peripheral\coretimer\plib_coretimer.h</file>
          <hash>43d3e41ccde2c350df7b47ce49dda5543f6ac162dec45076becd94e54f2f8a2d</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\pic32mk_gp_db\usb\src\usb_external_dependencies.h</file>
+         <hash>5110f718908d8f79253ce5b4b44172288cc179ff61d18e387f9e90ae9afbb1b6</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_gp_db\peripheral\coretimer\plib_coretimer.c</file>
@@ -3872,7 +3899,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mk_gp_db\system\fs\fat_fs\file_system\ffconf.h</file>
-         <hash>4b18e8ce0011ac7b0914aa6de52c456333b08a6d02b0d6953fed80ed67f5d2fa</hash>
+         <hash>e3021a3bb2a5968b7c23b09d411df4ff723696c8344b73870b6901ea3b1ee95a</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_gp_db\driver\usb\usbfs\src\templates\usb_OTG_PullUpPullDown_Unsupported.h</file>
@@ -4052,7 +4079,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mk_gp_db\system\fs\sys_fs.h</file>
-         <hash>4ca0bf61b93d1b4335bad8755bfeeed6dfda8a7eb3f2eabfcd9239a0b78e01af</hash>
+         <hash>5161c95024f6736400bcfd7d534651c867cd447549fa73d9d9be7044c576bbcd</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_gp_db\driver\usb\usbfs\src\templates\usb_BDTFunctions_PIC32.h</file>
@@ -4216,7 +4243,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mk_gp_db\definitions.h</file>
-         <hash>9c0bad3f9a7bde675ccbd57c42c6da266b973f2ed15d34076b632b4068502f02</hash>
+         <hash>a68ffb9243de3fcb4286066f2d6a3934d0ad41fba41a29eb60e9123e0210b420</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_gp_db\driver\usb\usbfs\src\templates\usb_BDTBaseAddress_Default.h</file>
