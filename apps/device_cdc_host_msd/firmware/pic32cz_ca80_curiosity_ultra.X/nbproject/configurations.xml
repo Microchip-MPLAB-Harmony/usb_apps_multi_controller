@@ -394,7 +394,6 @@
                    displayName="Important Files"
                    projectFiles="false">
       <itemPath>Makefile</itemPath>
-      <itemPath>pic32cz_ca80_curiosity_ultra.mc3</itemPath>
       <itemPath>device_cdc_host_msd_pic32cz_ca80_curiosity_ultra.mc3</itemPath>
     </logicalFolder>
   </logicalFolder>

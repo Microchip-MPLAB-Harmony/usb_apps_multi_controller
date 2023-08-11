@@ -382,7 +382,6 @@
                    displayName="Important Files"
                    projectFiles="false">
       <itemPath>Makefile</itemPath>
-      <itemPath>pic32cz_ca80_curiosity_ultra.mc3</itemPath>
       <itemPath>host_msd_dual_pic32cz_ca80_curiosity_ultra.mc3</itemPath>
     </logicalFolder>
   </logicalFolder>

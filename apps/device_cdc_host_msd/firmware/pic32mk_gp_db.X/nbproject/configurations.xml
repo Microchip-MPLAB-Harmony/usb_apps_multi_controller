@@ -251,7 +251,6 @@
         <itemPath>../src/config/pic32mk_gp_db/pic32mk_gp_db.mhc/usb_host_msd.yml</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>device_cdc_host_msd_pic32mk_gp_db</itemPath>
       <itemPath>../src/config/pic32mk_gp_db/harmony-manifest-success.yml</itemPath>
       <itemPath>device_cdc_host_msd_pic32mk_gp_db.mc3</itemPath>
     </logicalFolder>
@@ -356,7 +355,7 @@
         <targetDevice>PIC32MK1024GPE100</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>noID</platformTool>
+        <platformTool>pkob4hybrid</platformTool>
         <languageToolchain>XC32</languageToolchain>
         <languageToolchainVersion>4.30</languageToolchainVersion>
         <platform>3</platform>
