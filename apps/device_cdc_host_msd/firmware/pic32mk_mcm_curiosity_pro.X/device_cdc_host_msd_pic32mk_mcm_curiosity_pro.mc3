@@ -3349,6 +3349,33 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sys_fs" name="SYS_FS_FAT_EXFAT_ENABLE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sys_fs&gt;
+  &lt;sys_fs dnOrder=&quot;0&quot; id=&quot;SYS_FS_FAT_EXFAT_ENABLE&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;true&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/sys_fs&gt;
+&lt;/sys_fs&gt;
+</value>
+      </entry>
+      <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sys_fs" name="SYS_FS_LFN_ENABLE"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sys_fs&gt;
+  &lt;sys_fs dnOrder=&quot;0&quot; id=&quot;SYS_FS_LFN_ENABLE&quot;&gt;
+    &lt;Attributes dnOrder=&quot;0&quot;&gt;
+      &lt;Boolean dnOrder=&quot;0&quot; id=&quot;readOnly&quot;&gt;
+        &lt;Value dnOrder=&quot;0&quot;&gt;true&lt;/Value&gt;
+      &lt;/Boolean&gt;
+    &lt;/Attributes&gt;
+    &lt;Values dnOrder=&quot;1&quot;&gt;
+      &lt;Dynamic dnOrder=&quot;0&quot; id=&quot;sys_fs&quot; value=&quot;true&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/sys_fs&gt;
+&lt;/sys_fs&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="sys_fs" name="SYS_FS_MEDIA_DEVICE_1_NAME_IDX0"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;sys_fs&gt;
   &lt;sys_fs dnOrder=&quot;0&quot; id=&quot;SYS_FS_MEDIA_DEVICE_1_NAME_IDX0&quot;&gt;
@@ -3927,7 +3954,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\configuration.h</file>
-         <hash>71b02f1c235a8fd977546e5aaca9a9a01549d5df33586946f31cbe90b15a1b0c</hash>
+         <hash>e6a0f8165ac3d2a0260e690c6bbaa235a0a6759404658af34e103f05d72d8351</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\driver\usb\usbfs\src\templates\usb_EPnControlTransfer_Default.h</file>
@@ -4083,7 +4110,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\definitions.h</file>
-         <hash>417620cc11674d46c3fb655329c36c6d16dbe0d8a93b122cd8b235189b891a6f</hash>
+         <hash>5e8b96eaf492e4e46bc92b70efdc05aae3c9b28115e1dad29954a2d63f89c2c5</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\driver\usb\usbfs\src\templates\usb_BDTBaseAddress_Default.h</file>
@@ -4143,7 +4170,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\system\fs\sys_fs.h</file>
-         <hash>4ca0bf61b93d1b4335bad8755bfeeed6dfda8a7eb3f2eabfcd9239a0b78e01af</hash>
+         <hash>5161c95024f6736400bcfd7d534651c867cd447549fa73d9d9be7044c576bbcd</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\driver\usb\usbfs\src\templates\usb_FrameNumber_Default.h</file>
@@ -4639,7 +4666,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\system\fs\fat_fs\file_system\ffconf.h</file>
-         <hash>eb42d88a772858dbd895386063ff6fa76df37a06bf8ee6da1bf3a43a8d9584e4</hash>
+         <hash>a2dc75b0fcbc740c3c9d99afe0d0f72b7161643bf50e2af2feaddd5913a7b6a3</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\initialization.c</file>
