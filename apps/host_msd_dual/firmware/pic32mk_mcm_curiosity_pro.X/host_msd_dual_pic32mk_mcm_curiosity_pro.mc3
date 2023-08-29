@@ -3699,6 +3699,17 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="usb_host" name="CONFIG_USB_HOST_DEVICES_NUMBER"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;usb_host&gt;
+  &lt;usb_host dnOrder=&quot;0&quot; id=&quot;CONFIG_USB_HOST_DEVICES_NUMBER&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;2&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/usb_host&gt;
+&lt;/usb_host&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="usb_host" name="CONFIG_USB_HOST_MAX_INTERFACES"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;usb_host&gt;
   &lt;usb_host dnOrder=&quot;0&quot; id=&quot;CONFIG_USB_HOST_MAX_INTERFACES&quot;&gt;
@@ -3811,7 +3822,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\configuration.h</file>
-         <hash>da433b15032d583e6542af3e1dcd5d85dbeb27cf2baa979db199f0fbf077f77e</hash>
+         <hash>7f9c8bc3dc10bc57f041c550104906cddc5b708be223e8b4aef33f2ed9df8ec0</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\driver\usb\usbfs\src\templates\usb_EPnControlTransfer_Default.h</file>
@@ -3951,7 +3962,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\definitions.h</file>
-         <hash>dfe0bf979782a284f7cfa36eba025b2808198f6bbc4aff6778af6cd0710f35c7</hash>
+         <hash>44c230ee9aacf4fbd2e72aeb31f5eda39a20dd157c7eccc9181952168aa3076e</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\driver\usb\usbfs\src\templates\usb_BDTBaseAddress_Default.h</file>

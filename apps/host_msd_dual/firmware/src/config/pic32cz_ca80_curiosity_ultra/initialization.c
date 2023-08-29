@@ -377,12 +377,12 @@ void DRV_USB_VBUSPowerEnable1(uint8_t port, bool enable)
     if (enable == true)
     {
         /* Enable the VBUS */
-        VBUS_AL_PowerEnable();
+        VBUS_AL_1_PowerEnable();
     }
     else
     {
         /* Disable the VBUS */
-        VBUS_AL_PowerDisable();
+        VBUS_AL_1_PowerDisable();
     }
 }
 
@@ -439,12 +439,12 @@ void DRV_USB_VBUSPowerEnable0(uint8_t port, bool enable)
     if (enable == true)
     {
         /* Enable the VBUS */
-        VBUS_AL_PowerEnable();
+        VBUS_AL_0_PowerEnable();
     }
     else
     {
         /* Disable the VBUS */
-        VBUS_AL_PowerDisable();
+        VBUS_AL_0_PowerDisable();
     }
 }
 

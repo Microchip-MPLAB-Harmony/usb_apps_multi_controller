@@ -22,12 +22,12 @@ Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,O
 25,PA08,,Available,,,,,,No,FAST
 26,PA09,,Available,,,,,,No,FAST
 27,PE08,,Available,,,,,,No,FAST
-28,PE09,VBUS_AL,VBUS_AL,Digital,Out,High,,,No,FAST
+28,PE09,VBUS_AL_1,VBUS_AL,Digital,Out,High,,,No,FAST
 29,PE10,,Available,,,,,,No,FAST
 30,PE11,,Available,,,,,,No,FAST
 31,PA24,,Available,,,,,,No,FAST
 32,PA25,,Available,,,,,,No,FAST
-33,PE03,,Available,,,,,,No,FAST
+33,PE03,VBUS_AL_0,VBUS_AL,Digital,Out,High,,,No,FAST
 36,PA10,,Available,,,,,,No,FAST
 37,PA11,,Available,,,,,,No,FAST
 38,PA26,,Available,,,,,,No,FAST

@@ -3479,6 +3479,17 @@
 </value>
       </entry>
       <entry>
+         <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="usb_host" name="CONFIG_USB_HOST_DEVICES_NUMBER"/>
+         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;usb_host&gt;
+  &lt;usb_host dnOrder=&quot;0&quot; id=&quot;CONFIG_USB_HOST_DEVICES_NUMBER&quot;&gt;
+    &lt;Values dnOrder=&quot;0&quot;&gt;
+      &lt;User dnOrder=&quot;0&quot; value=&quot;2&quot;/&gt;
+    &lt;/Values&gt;
+  &lt;/usb_host&gt;
+&lt;/usb_host&gt;
+</value>
+      </entry>
+      <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="usb_host" name="CONFIG_USB_HOST_MAX_INTERFACES"/>
          <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;usb_host&gt;
   &lt;usb_host dnOrder=&quot;0&quot; id=&quot;CONFIG_USB_HOST_MAX_INTERFACES&quot;&gt;
@@ -3559,7 +3570,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mk_gp_db\configuration.h</file>
-         <hash>da433b15032d583e6542af3e1dcd5d85dbeb27cf2baa979db199f0fbf077f77e</hash>
+         <hash>7f9c8bc3dc10bc57f041c550104906cddc5b708be223e8b4aef33f2ed9df8ec0</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_gp_db\usb\usb_host_hub_interface.h</file>

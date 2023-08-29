@@ -83,9 +83,12 @@
 #define SWITCH2_STATE_PRESSED   0
 #define SWITCH2_STATE_RELEASED  1
 
-/*** VBUS Macros for VBUS_AL ***/
-#define VBUS_AL_PowerEnable()         (PORT_REGS->GROUP[4].PORT_OUTCLR = 1UL << 9)
-#define VBUS_AL_PowerDisable()        (PORT_REGS->GROUP[4].PORT_OUTSET = 1UL << 9)
+/*** VBUS Macros for VBUS_AL_1 ***/
+#define VBUS_AL_1_PowerEnable()         (PORT_REGS->GROUP[4].PORT_OUTCLR = 1UL << 9)
+#define VBUS_AL_1_PowerDisable()        (PORT_REGS->GROUP[4].PORT_OUTSET = 1UL << 9)
+/*** VBUS Macros for VBUS_AL_0 ***/
+#define VBUS_AL_0_PowerEnable()         (PORT_REGS->GROUP[4].PORT_OUTCLR = 1UL << 3)
+#define VBUS_AL_0_PowerDisable()        (PORT_REGS->GROUP[4].PORT_OUTSET = 1UL << 3)
 
 
 

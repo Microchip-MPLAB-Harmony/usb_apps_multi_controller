@@ -185,7 +185,7 @@ extern "C" {
 // **************************************************************************
 
 /* Total number of devices to be supported */
-#define USB_HOST_DEVICES_NUMBER                             1 
+#define USB_HOST_DEVICES_NUMBER                             2 
 
 /* Number of Target peripheral list (TPL) entries. */
 #define  USB_HOST_TPL_ENTRIES                               1 
