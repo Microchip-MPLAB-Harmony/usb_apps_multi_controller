@@ -32,7 +32,7 @@ Following table gives the details of project configurations, target device used,
 
 ## <a name="config_title"></a> Configuring the Hardware
 
-### <a name="config_23"></a> PIC32CZ CA80 Curiosity Development Board
+### <a name="config_23"></a> [PIC32CZ CA80 Curiosity Ultra development board](https://www.microchip.com/en-us/development-tool/ea61x20a)
 - Board must be powered by J100.
 - USBHS0 Peripheral (Micro-AB connector - J102) operates in USB Host mode.
     - USB Flash drives should be attached to J102 using a USB Type-A Female to micro-B male cable (This cable is not included in the kit). 
@@ -40,7 +40,7 @@ Following table gives the details of project configurations, target device used,
 - USBHS1 Peripheral operates (Type C connector - J103) operates in USB Device mode
     - Connect J103 to a Host PC.
     - LED0 indicates USB Device Configuration Set Complete event (the USB device functionality has been activated by the USB Host).
-    - Press switch SW 0 to trigger communication from the USB Device to the USB Host.
+    - Press switch SW1 to trigger communication from the USB Device to the USB Host.
 
 ### <a name="config_12"></a> [PIC32MK General Purpose (GP) Development Board](https://www.microchip.com/developmenttools/ProductDetails/dm320106)
 

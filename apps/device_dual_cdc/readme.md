@@ -61,16 +61,16 @@ Following table gives the details of project configurations, target device used,
     - SW1 - USB Peripheral 1 (USB Micro B connector - J200)
     - SW2 - USB Peripheral 2 (USB Type C connector - J202)
 
-### <a name="config_23"></a> PIC32CZ Curiosity Development Board
+### <a name="config_23"></a> [PIC32CZ CA80 Curiosity Ultra development board](https://www.microchip.com/en-us/development-tool/ea61x20a)
 - Connect the following USB connectors on the board to the USB Host PC:
-    - J102 - USBHSO (USB Micro B connector located on the bottom side of the board)
-    - J103 - USBHS1 (USB Type C connector)
+    - J102 - USBHS0 (USB Micro-B connector)
+    - J103 - USBHS1 (USB Type-C connector)
 - The following LEDs indicates USB Device Configuration Set Complete event (the USB device functionality has been activated by the USB Host):
-    - LED0 - USBHSO (USB Micro B connector - J102)
-    - LED1 - USBHS1 (USB Type C connector - J103)
+    - LED0 - USBHS0 (USB Micro-B connector - J102)
+    - LED1 - USBHS1 (USB Type-C connector - J103)
 - Press the following switches to trigger communication from the USB Device to the USB Host:
-    - SW0 - USBHS0 (USB Micro B connector - J102)
-    - SW1 - USBHS1 (USB Type C connector - J103)
+    - SW0 - USBHS0 (USB Micro-B connector - J102)
+    - SW1 - USBHS1 (USB Type-C connector - J103)
 
 ## Running the Application
 
