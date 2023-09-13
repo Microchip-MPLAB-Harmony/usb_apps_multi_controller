@@ -50,6 +50,16 @@
 #include "usb/src/usb_external_dependencies.h"
 #include "driver/usb/usbhs/src/drv_usbhs_local.h"
 
+/* Definitions */ 
+#define SUPC_VREGCTRL_AVREGEN_USBHS0_Pos             _UINT32_(16)
+#define SUPC_VREGCTRL_AVREGEN_USBHS1_Pos             _UINT32_(17)
+#define SUPC_VREGCTRL_AVREGEN_USBHS0_Msk             (_UINT32_(0x1) << SUPC_VREGCTRL_AVREGEN_USBHS0_Pos) 
+#define SUPC_VREGCTRL_AVREGEN_USBHS1_Msk             (_UINT32_(0x1) << SUPC_VREGCTRL_AVREGEN_USBHS1_Pos)
+#define SUPC_STATUS_ADDVREGRDY_USBHS0_Pos            _UINT32_(8)                                          
+#define SUPC_STATUS_ADDVREGRDY_USBHS0_Msk            (_UINT32_(0x1) << SUPC_STATUS_ADDVREGRDY_USBHS0_Pos) 
+#define SUPC_STATUS_ADDVREGRDY_USBHS1_Pos            _UINT32_(9)                                          
+#define SUPC_STATUS_ADDVREGRDY_USBHS1_Msk            (_UINT32_(0x1) << SUPC_STATUS_ADDVREGRDY_USBHS1_Pos)   
+
 /*********************************************
  * USB Driver object per USB Module instance 
  * present in the microcontroller.
@@ -174,6 +184,31 @@ SYS_MODULE_OBJ DRV_USBHS_Initialize
      * On failure: SYS_MODULE_OBJ_INVALID */
     return (returnValue);
 }
+// *****************************************************************************
+/* Function:
+    void swDelayUs(uint32_t delay)
+
+  Summary:
+    This function will give the delay in microseconds.
+
+  Description:
+    This function is used to give a delay for enabling the controllers.
+  Remarks:
+    
+*/
+
+static void swDelayUs(uint32_t delay)
+{
+    uint32_t i, count;
+    /* delay * (CPU_CLOCK_FREQUENCY/1000000) / 6 */
+    count = delay *  (CPU_CLOCK_FREQUENCY/1000000U)/6U;
+    for (i = 0; i < count; i++)
+    {
+        /* 6 CPU cycles per iteration */
+        __NOP();
+    }
+}
+
 
 // *****************************************************************************
 /* Function:
@@ -211,7 +246,28 @@ void DRV_USBHS_Tasks
                 /* On PIC32MZ DA and EF devices, enable the global USB interrupt
                  * in the USBCRCON register. */
                 _DRV_USBHS_CLOCK_CONTROL_GLOBAL_USB_INT_ENABLE(usbID);
-
+                if (usbID == USBHS0_BASE_ADDRESS )
+                {
+                     /* Enable USBHS0 Voltage Regulator */ 
+                    SUPC_REGS->SUPC_VREGCTRL  |= SUPC_VREGCTRL_AVREGEN_USBHS0_Msk; 
+                    while ((SUPC_REGS->SUPC_STATUS & SUPC_STATUS_ADDVREGRDY_USBHS0_Msk) != SUPC_STATUS_ADDVREGRDY_USBHS0_Msk)
+                    {
+                        /* Do Nothing */
+                    }
+                    /* Add 1 uSecond Delay after enabling the USB Voltage Regulator */ 
+                    swDelayUs(1);
+                }
+                if (usbID == USBHS1_BASE_ADDRESS)
+                {
+                    /* Enable USBHS1 Voltage Regulator */
+                    SUPC_REGS->SUPC_VREGCTRL  |= SUPC_VREGCTRL_AVREGEN_USBHS1_Msk;
+                    while ((SUPC_REGS->SUPC_STATUS & SUPC_STATUS_ADDVREGRDY_USBHS1_Msk) != SUPC_STATUS_ADDVREGRDY_USBHS1_Msk)
+                    {
+                        /* Do Nothing */
+                    }
+                    /* Add 1 uSecond Delay after enabling the USB Voltage Regulator */
+                    swDelayUs(1);
+                }
                 /* Reset the PHY. This is a workaround for an errata */
                 PLIB_USBHS_SoftResetEnable(usbID);
 
