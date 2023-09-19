@@ -37,9 +37,9 @@ The following applications are provided to demonstrate the typical or interestin
 
 | Name                      | Description            |
 | ------------------------- | ---------------------- |
-| CDC Device and MSD Host   | This application demonstrates USB Device and Host operation on a PIC32 microcontroller with two USB Controllers. One USB peripheral operates in USB Device mode and other peripheral operates in USB Host mode. This demonstrates capability of Harmony USB stack to work with multiple USB controllers. |
-| Dual CDC Device           | This application demonstrates the ability of the MPLAB Harmony USB Stack to support multiple USB Device operation on a PIC32 microcontroller with two USB Controllers.   |
-| Host MSD Dual             | This application demonstrates Multiple USB Host operation on a PIC32 microcontroller with two USB Controllers. Both the USB peripherals operate in USB MSD Host mode. This demonstrates capability of Harmony USB stack to work with multiple USB controllers. |
+| [CDC Device and MSD Host](apps/device_cdc_host_msd/readme.md)   | This application demonstrates USB Device and Host operation on a PIC32 microcontroller with two USB Controllers. One USB peripheral operates in USB Device mode and other peripheral operates in USB Host mode. This demonstrates capability of Harmony USB stack to work with multiple USB controllers. |
+| [Dual CDC Device](apps/device_dual_cdc/readme.md)           | This application demonstrates the ability of the MPLAB Harmony USB Stack to support multiple USB Device operation on a PIC32 microcontroller with two USB Controllers.   |
+| [Host MSD Dual](apps/host_msd_dual/readme.md)             | This application demonstrates Multiple USB Host operation on a PIC32 microcontroller with two USB Controllers. Both the USB peripherals operate in USB MSD Host mode. This demonstrates capability of Harmony USB stack to work with multiple USB controllers. |
 
 ____
 
