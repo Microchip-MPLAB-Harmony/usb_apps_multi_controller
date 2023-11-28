@@ -60,11 +60,11 @@
 #include "driver/usb/usbfs/drv_usbfs.h"
 #include "driver/usb/usbfs/drv_usbfs.h"
 #include "system/time/sys_time.h"
-#include "usb/usb_chapter_9.h"
-#include "usb/usb_host.h"
 #include "usb/usb_device_cdc.h"
 #include "usb/usb_cdc.h"
 #include "peripheral/coretimer/plib_coretimer.h"
+#include "usb/usb_chapter_9.h"
+#include "usb/usb_host.h"
 #include "system/fs/sys_fs.h"
 #include "system/fs/sys_fs_media_manager.h"
 #include "system/fs/sys_fs_fat_interface.h"
@@ -208,11 +208,11 @@ typedef struct
     SYS_MODULE_OBJ  usbDevObject0;
 
 
-	SYS_MODULE_OBJ  drvUSBFSObject0;
+    SYS_MODULE_OBJ  drvUSBFSObject0;
 
 
 
-	SYS_MODULE_OBJ  drvUSBFSObject1;
+    SYS_MODULE_OBJ  drvUSBFSObject1;
 
 
     SYS_MODULE_OBJ  sysTime;
