@@ -199,11 +199,11 @@ typedef struct
     SYS_MODULE_OBJ  usbDevObject0;
 
 
-	SYS_MODULE_OBJ  drvUSBFSObject0;
+    SYS_MODULE_OBJ  drvUSBFSObject0;
 
 
 
-	SYS_MODULE_OBJ  drvUSBFSObject1;
+    SYS_MODULE_OBJ  drvUSBFSObject1;
 
 
 
