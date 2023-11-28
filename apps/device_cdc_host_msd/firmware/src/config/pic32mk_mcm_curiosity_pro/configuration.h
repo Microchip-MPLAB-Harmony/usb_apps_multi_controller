@@ -143,10 +143,10 @@ extern "C" {
 #define USB_HOST_MSD_LUN_NUMBERS              1
 
 
-#define USB_DEVICE_INSTANCES_NUMBER                         1
+#define USB_DEVICE_INSTANCES_NUMBER                         1U
 
 /* EP0 size in bytes */
-#define USB_DEVICE_EP0_BUFFER_SIZE                          64
+#define USB_DEVICE_EP0_BUFFER_SIZE                          64U
 
 /* The USB Device Layer will not initialize the USB Driver */
 #define USB_DEVICE_DRIVER_INITIALIZE_EXPLICIT
@@ -156,7 +156,7 @@ extern "C" {
 
 
 /* Number Full Speed USB Driver instances */ 
-#define DRV_USBFS_INSTANCES_NUMBER                       2
+#define DRV_USBFS_INSTANCES_NUMBER                       2U
 
 /* Interrupt mode enabled */
 #define DRV_USBFS_INTERRUPT_MODE                          true
@@ -164,7 +164,7 @@ extern "C" {
 /* Enables Device Support */
 #define DRV_USBFS_DEVICE_SUPPORT                          true
 
-#define DRV_USBFS_ENDPOINTS_NUMBER                        3
+#define DRV_USBFS_ENDPOINTS_NUMBER                        3U
 
 /* Enable Host Support */
 #define DRV_USBFS_HOST_SUPPORT                            true
@@ -176,22 +176,22 @@ extern "C" {
 #define DRV_USBFS_HOST_PIPES_NUMBER                       10  
 
 /* Attach Debounce duration in milli Seconds */ 
-#define DRV_USBFS_HOST_ATTACH_DEBOUNCE_DURATION           500
+#define DRV_USBFS_HOST_ATTACH_DEBOUNCE_DURATION           500U
 
 /* Reset duration in milli Seconds */ 
-#define DRV_USBFS_HOST_RESET_DURATION                     100
+#define DRV_USBFS_HOST_RESET_DURATION                     100U
 
 /* Alignment for buffers that are submitted to USB Driver*/ 
 #define USB_ALIGN  CACHE_ALIGN
 
 /* Maximum instances of CDC function driver */
-#define USB_DEVICE_CDC_INSTANCES_NUMBER                     1
+#define USB_DEVICE_CDC_INSTANCES_NUMBER                     1U
 
 
 /* CDC Transfer Queue Size for both read and
    write. Applicable to all instances of the
    function driver */
-#define USB_DEVICE_CDC_QUEUE_DEPTH_COMBINED                 3
+#define USB_DEVICE_CDC_QUEUE_DEPTH_COMBINED                 3U
 
 // *****************************************************************************
 // *****************************************************************************
