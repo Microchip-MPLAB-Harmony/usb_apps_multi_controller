@@ -143,29 +143,29 @@ SYSTEM_OBJECTS sysObj;
  ******************************************************/
  
 
-uint8_t __attribute__((aligned(512))) endPointTable0[DRV_USBFS_ENDPOINTS_NUMBER * 32];
+static uint8_t __attribute__((aligned(512))) endPointTable0[DRV_USBFS_ENDPOINTS_NUMBER * 32];
 
 
-const DRV_USBFS_INIT drvUSBFSInit0 =
+static const DRV_USBFS_INIT drvUSBFSInit0 =
 {
-	 /* Assign the endpoint table */
+     /* Assign the endpoint table */
     .endpointTable= endPointTable0,
-	/* Interrupt Source for USB module */
-	.interruptSource = INT_SOURCE_USB_1 ,
+    /* Interrupt Source for USB module */
+    .interruptSource = INT_SOURCE_USB_1 ,
    
     /* USB Controller to operate as USB Device */
     .operationMode = DRV_USBFS_OPMODE_DEVICE,
-	
-	.operationSpeed = USB_SPEED_FULL,
+    
+    .operationSpeed = USB_SPEED_FULL,
  
-	/* Stop in idle */
+    /* Stop in idle */
     .stopInIdle = false,
-	
-	    /* Suspend in sleep */
+    
+        /* Suspend in sleep */
     .suspendInSleep = false,
     /* Identifies peripheral (PLIB-level) ID */
     .usbID = USB_ID_1,
-	
+    
 
 };
 
@@ -179,28 +179,28 @@ const DRV_USBFS_INIT drvUSBFSInit0 =
  ******************************************************/
  
 
-uint8_t __attribute__((aligned(512))) endPointTable1[DRV_USBFS_ENDPOINTS_NUMBER * 32];
+static uint8_t __attribute__((aligned(512))) endPointTable1[DRV_USBFS_ENDPOINTS_NUMBER * 32];
 
 
-const DRV_USBFS_INIT drvUSBFSInit1 =
+static const DRV_USBFS_INIT drvUSBFSInit1 =
 {
-	 /* Assign the endpoint table */
+     /* Assign the endpoint table */
     .endpointTable= endPointTable1,
-	/* Interrupt Source for USB module */
-	.interruptSource = INT_SOURCE_USB_2 ,
+    /* Interrupt Source for USB module */
+    .interruptSource = INT_SOURCE_USB_2 ,
    
     /* USB Controller to operate as USB Device */
     .operationMode = DRV_USBFS_OPMODE_DEVICE,
-	
-	.operationSpeed = USB_SPEED_FULL,
+    
+    .operationSpeed = USB_SPEED_FULL,
  
-	/* Stop in idle */
+    /* Stop in idle */
     .stopInIdle = false,
-	
-	    /* Suspend in sleep */
+    
+        /* Suspend in sleep */
     .suspendInSleep = false,
-	.usbID = USB_ID_2,
-	
+    .usbID = USB_ID_2,
+    
 
 };
 
@@ -280,11 +280,11 @@ void SYS_Initialize ( void* data )
     sysObj.usbDevObject0 = USB_DEVICE_Initialize (USB_DEVICE_INDEX_0 , ( SYS_MODULE_INIT* ) & usbDevInitData0);
 
 
-	/* Initialize USB Driver */ 
-    sysObj.drvUSBFSObject0 = DRV_USBFS_Initialize(DRV_USBFS_INDEX_0, (SYS_MODULE_INIT *) &drvUSBFSInit0);	
+    /* Initialize USB Driver */ 
+    sysObj.drvUSBFSObject0 = DRV_USBFS_Initialize(DRV_USBFS_INDEX_0, (SYS_MODULE_INIT *) &drvUSBFSInit0);    
 
-	/* Initialize USB Driver */ 
-    sysObj.drvUSBFSObject1 = DRV_USBFS_Initialize(DRV_USBFS_INDEX_1, (SYS_MODULE_INIT *) &drvUSBFSInit1);	
+    /* Initialize USB Driver */ 
+    sysObj.drvUSBFSObject1 = DRV_USBFS_Initialize(DRV_USBFS_INDEX_1, (SYS_MODULE_INIT *) &drvUSBFSInit1);    
 
 
     /* MISRAC 2012 deviation block end */
