@@ -294,7 +294,7 @@ SYSTEM_OBJECTS sysObj;
  * USB Driver Initialization
  ******************************************************/
 
-const DRV_USBHS_INIT drvUSBHSInit1 =
+static const DRV_USBHS_INIT drvUSBHSInit1 =
 {
 
     /* Interrupt Source for USB module */
@@ -328,7 +328,7 @@ const DRV_USBHS_INIT drvUSBHSInit1 =
  * USB Driver Initialization
  ******************************************************/
 
-const DRV_USBHS_INIT drvUSBHSInit0 =
+static const DRV_USBHS_INIT drvUSBHSInit0 =
 {
 
     /* Interrupt Source for USB module */
@@ -423,10 +423,10 @@ void SYS_Initialize ( void* data )
 
 
     /* Initialize USB Driver */ 
-    sysObj.drvUSBHSObject1 = DRV_USBHS_Initialize(DRV_USBHS_INDEX_1, (SYS_MODULE_INIT *) &drvUSBHSInit1);	
+    sysObj.drvUSBHSObject1 = DRV_USBHS_Initialize(DRV_USBHS_INDEX_1, (SYS_MODULE_INIT *) &drvUSBHSInit1);    
 
     /* Initialize USB Driver */ 
-    sysObj.drvUSBHSObject0 = DRV_USBHS_Initialize(DRV_USBHS_INDEX_0, (SYS_MODULE_INIT *) &drvUSBHSInit0);	
+    sysObj.drvUSBHSObject0 = DRV_USBHS_Initialize(DRV_USBHS_INDEX_0, (SYS_MODULE_INIT *) &drvUSBHSInit0);    
 
 
     /* MISRAC 2012 deviation block end */
