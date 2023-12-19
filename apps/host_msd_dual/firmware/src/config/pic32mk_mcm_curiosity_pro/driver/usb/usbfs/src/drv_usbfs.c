@@ -593,7 +593,7 @@ void DRV_USBFS_Tasks(SYS_MODULE_OBJ object)
     None 
 */
 
-void DRV_USBFS_USB1_Handler(void)
+void __attribute__((used)) DRV_USBFS_USB1_Handler(void)
 {
     DRV_USBFS_Tasks_ISR(sysObj.drvUSBFSObject0); 
 }
@@ -613,9 +613,10 @@ void DRV_USBFS_USB1_Handler(void)
     None 
 */
 
-void DRV_USBFS_USB2_Handler(void)
+void __attribute__((used)) DRV_USBFS_USB2_Handler(void)
 {
     DRV_USBFS_Tasks_ISR(sysObj.drvUSBFSObject1); 
 }
+
 
 
