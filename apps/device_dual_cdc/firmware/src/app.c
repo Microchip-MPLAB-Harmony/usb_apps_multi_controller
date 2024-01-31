@@ -469,9 +469,14 @@ void APP_Tasks (void )
         case APP_STATE_INIT:
 
             /* Open the device layer */
-            appData.deviceObject[0].deviceHandle = USB_DEVICE_Open( USB_DEVICE_INDEX_0, DRV_IO_INTENT_READWRITE );
-            appData.deviceObject[1].deviceHandle = USB_DEVICE_Open( USB_DEVICE_INDEX_1, DRV_IO_INTENT_READWRITE );
-            
+            if(appData.deviceObject[0].deviceHandle == USB_DEVICE_HANDLE_INVALID)
+            {
+                appData.deviceObject[0].deviceHandle = USB_DEVICE_Open( USB_DEVICE_INDEX_0, DRV_IO_INTENT_READWRITE );
+            }
+            if(appData.deviceObject[1].deviceHandle == USB_DEVICE_HANDLE_INVALID)
+            {
+				appData.deviceObject[1].deviceHandle = USB_DEVICE_Open( USB_DEVICE_INDEX_1, DRV_IO_INTENT_READWRITE );
+            }
             
            if((appData.deviceObject[0].deviceHandle != USB_DEVICE_HANDLE_INVALID) 
                 && 
