@@ -1,0 +1,9 @@
+<config configName="default" projectName="pic32ck_gc01_curiosity_ultra" configVersion="1.1" device="PIC32CK2051GC01144" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.7.0">
+   <usedPackages class="java.util.ArrayList"/>
+   <usedClasses class="java.util.TreeMap"/>
+   <usedLibraries class="java.util.ArrayList">
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.5.0"/>
+   </usedLibraries>
+   <tokenMap class="java.util.TreeMap"/>
+   <generatedFileHashHistoryMap class="java.util.TreeMap"/>
+</config>
