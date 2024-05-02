@@ -671,9 +671,8 @@ unsigned int F_DRV_USBHS_HOST_IRPReceiveFIFOUnload
     return (count);
 }
 
-/* MISRA C-2012 Rule 11.3 deviated:9, 11.6 deviated:1 and 11.6 deviated:1 and 11.7 deviated:9 below. 
-   Deviation record ID - H3_USB_MISRAC_2012_R_11_3_DR_1, H3_USB_MISRAC_2012_R_11_6_DR_1  and
-   H3_USB_MISRAC_2012_R_11_7_DR_1 */
+/* MISRA C-2012 Rule 11.3 deviated:9, 11.6 deviated:1 and 11.6 deviated:1 below. 
+   Deviation record ID - H3_USB_MISRAC_2012_R_11_3_DR_1, H3_USB_MISRAC_2012_R_11_6_DR_1  */
 
 
 void F_DRV_USBHS_HOST_Initialize

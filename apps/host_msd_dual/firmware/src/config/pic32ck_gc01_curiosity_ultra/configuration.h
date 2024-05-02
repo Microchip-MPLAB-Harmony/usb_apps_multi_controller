@@ -163,7 +163,7 @@ extern "C" {
 /* Reset duration in milli Seconds */ 
 #define DRV_USBFSV1_HOST_RESET_DURATION                     100
 
-#define DRV_USBFSV1_ENDPOINTS_NUMBER                        1
+#define DRV_USBFSV1_ENDPOINTS_NUMBER                        1U
 
 /* Number of MSD Function driver instances in the application */
 #define USB_HOST_MSD_INSTANCES_NUMBER         2

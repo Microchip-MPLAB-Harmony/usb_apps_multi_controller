@@ -1,4 +1,4 @@
-<config configName="default" projectName="pic32ck_gc01_curiosity_ultra" configVersion="1.1" device="PIC32CK2051GC01144" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.7.0">
+<config configName="default" projectName="pic32ck_gc01_curiosity_ultra" configVersion="1.1" device="PIC32CK2051GC01144" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.7.1">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -59,7 +59,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.5.0"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.5.2"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -9370,11 +9370,11 @@
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\configuration.h</file>
-         <hash>8d20c28a504ba3b5331d0df30d133aa855210058487cd626ea1ae162b5952128</hash>
+         <hash>7556e4b71c9ac929e075a9db6940de9fca8b225d8061116ec852492196d57fe2</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\definitions.h</file>
-         <hash>61cff5d7d748d92182d8481009c18880f012e1f8e65c21f8f1d75eb89dd4bb1e</hash>
+         <hash>deeee149a42b28f87d1374f111127570e47225eb8f7a666e55ec03084cc90e1b</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\device.h</file>
@@ -9406,7 +9406,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbfsv1\drv_usbfsv1.h</file>
-         <hash>bb512cc5d190f4cdbfde21b36b7139fe7fc2b6c56a5b3d0143effc4bb4213394</hash>
+         <hash>fb20628f02e63a59b444e3e961160de118146a508a6cdbdfabcd5719d742f06f</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbfsv1\src\drv_usbfsv1.c</file>
@@ -9414,11 +9414,11 @@
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbfsv1\src\drv_usbfsv1_host.c</file>
-         <hash>e9acc220c41813842d802150c7f1a733dde8078af7d8f23ef509f5ffac046950</hash>
+         <hash>458063c6278240b6515b176ea672b146dd3658327771cdf3584f046bd9fcc606</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbfsv1\src\drv_usbfsv1_local.h</file>
-         <hash>49e8e1456d0b11a92b5fab3dcdd9c477402d64fda065543103232059074ef036</hash>
+         <hash>0834ca7f0d9b69a800638f56d7a01e445a0addcc84d97e2597309dfbb2861cb4</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbfsv1\src\drv_usbfsv1_variant_mapping.h</file>
@@ -9430,11 +9430,11 @@
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\drv_usbhs.c</file>
-         <hash>ae42a254a5c541dc66e48961a02912f15aaf0b44143cc7b62171d8d53ef5cccd</hash>
+         <hash>266167e6353505f85ac16d4632bc6865c6822910d8bad60699fc57d2d4971bc1</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\drv_usbhs_host.c</file>
-         <hash>1a110f12f4a51ad094061b7bdf9edaddde26092ff3aa9474b4a57f448b85da81</hash>
+         <hash>58dcab48fa5f8317449e0879695fff071a3146a4f1bfce70fd7670105d30f3fe</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\drv_usbhs_local.h</file>
@@ -9450,11 +9450,11 @@
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\plib_usbhs_header.h</file>
-         <hash>ab790eafe5530248a29afbf02a5a03bd1a3ad89625b3280bdf7d9ea57d9452b8</hash>
+         <hash>1c352652dbb13cc932a66c6979855913c8944164691b062fdf7f64c7efdbcd0a</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\templates\usbhs_ClockResetControl_Default.h</file>
-         <hash>02c96c433f3481b97c126178b000bf918f74f4a9d1c2c869fc04539e1563a322</hash>
+         <hash>aca667159ec8d5350cdd569380769364ba99a54f93485ee6de6377337922ad50</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\templates\usbhs_ClockResetControl_Unsupported.h</file>
@@ -9462,7 +9462,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\templates\usbhs_EP0Status_Default.h</file>
-         <hash>646be6261dff3001744f2bd5a03a9ceb4dc480644f38dfdb4a842126808b0cb8</hash>
+         <hash>cb994f37b9d0edf5c091c497d908e14a1a80c9ea893c06afb9452ff2daf97e5f</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\templates\usbhs_EP0Status_Unsupported.h</file>
@@ -9470,7 +9470,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\templates\usbhs_EndpointFIFO_Default.h</file>
-         <hash>494029615a9c26b24ffe009089e07ff1df924f347d45c3ce108556365ce60bfb</hash>
+         <hash>98d522ae954124419b118a7e8782e063ce0b77a175c8b873e63a0b10607e0865</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\templates\usbhs_EndpointFIFO_Unsupported.h</file>
@@ -9478,7 +9478,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\templates\usbhs_EndpointOperations_Default.h</file>
-         <hash>bd5fd45260a80fc3ecd575ec429a2d303c2864c27bb0ba7d53420acc839eeef3</hash>
+         <hash>ae3a765fd84b8fb0cdce9132a66cf5e1867a5775fb2724b413af2e645374b246</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\templates\usbhs_EndpointOperations_Unsupported.h</file>
@@ -9486,7 +9486,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\templates\usbhs_HighSpeedSupport_Default.h</file>
-         <hash>4a96716b6a54e2fec53f73dc46eba67125cc8e71e3b215b0e73bc2d7a5c92334</hash>
+         <hash>9eae3cf45107596365c5ea28207311be6ae0940e3f991d00280af42b2ce22a03</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\templates\usbhs_HighSpeedSupport_Unsupported.h</file>
@@ -9494,7 +9494,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\templates\usbhs_Interrupts_Default.h</file>
-         <hash>9cbe22acc94232885507b95524cdc507607e3cf003fdf6c18f20d802c7b6e7af</hash>
+         <hash>46e7b7d8493f6fd76636d634a526647d32d4c08fa4c1ada7c9971e4f62a73196</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\templates\usbhs_Interrupts_Unsupported.h</file>
@@ -9502,7 +9502,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\templates\usbhs_ModuleControl_Default.h</file>
-         <hash>283b513d010e62bca2b93912cd7c0457ce2e28570cb19208b9eb9b818536ebbf</hash>
+         <hash>5d6ee61678f048370f943dc8ba26bbe89f05516faab712807cb8c11c69ea49da</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\templates\usbhs_ModuleControl_Unsupported.h</file>
@@ -9510,7 +9510,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\templates\usbhs_RxEPStatus_Default.h</file>
-         <hash>bb5026e2ee342f42cec074f3f04577ef46afef2248494f2a185a72f153c066e0</hash>
+         <hash>fc294b746f35631abed35b82daee9b6a7960165074db0d0750194025d5f055fc</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\templates\usbhs_RxEPStatus_Unsupported.h</file>
@@ -9518,7 +9518,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\templates\usbhs_SoftReset_Default.h</file>
-         <hash>41c950756bcd51a0b58257a374bb1b73eb773fc710a419fbaee633c7d0b3389a</hash>
+         <hash>8024bea9ebe037ea8ff7c4e64a4c21b007c8df461ea64dbb28c387fb98284c7d</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\templates\usbhs_SoftReset_Unsupported.h</file>
@@ -9526,7 +9526,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\templates\usbhs_TxEPStatus_Default.h</file>
-         <hash>c3fe205c3e44230bd6b0999f45f9ddca197c6e9a0c75406405ab491e169e2a07</hash>
+         <hash>431d2e81630dac8517195672c116285bf411d3e7e6534358b98d33bd73ccbb4d</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\templates\usbhs_TxEPStatus_Unsupported.h</file>
@@ -9534,7 +9534,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\templates\usbhs_USBIDControl_Default.h</file>
-         <hash>6a8496e2304dc593ffe7582845a5b4a1fc9f4598549b7668a50bbe27d38460a0</hash>
+         <hash>8fb5d02b6a6f00ded8342578bd269801e162d0b0035ee568ba2cd8f8c8e97e89</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\templates\usbhs_USBIDControl_Unsupported.h</file>
@@ -9542,11 +9542,11 @@
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\templates\usbhs_registers.h</file>
-         <hash>e9f0018b26b7e7c8e42723e9dd123a68662b0818f40601eb5a75171ae7661324</hash>
+         <hash>008f29670b9bfe523923c1c10a3d44905310040d2fb7c606f519174afbdfb3b6</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\usbhs_registers.h</file>
-         <hash>207c8f185d0c45e59283a0fc3d2683b68447a9507db16a41fbf985184d6ad011</hash>
+         <hash>839ec8f6ad3d205938f55fd61905350d588d7aeead08165d29aca98c6ec9b174</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\exceptions.c</file>
@@ -9598,7 +9598,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\peripheral\evsys\plib_evsys.c</file>
-         <hash>b2e1a8004049e687fc5544133f3346f743ced50cdaf860c8e3c7f58df3cc163f</hash>
+         <hash>171913270aa095f1e8ff9192995129ff7bab22e5c793c4223f9046802e69d1e6</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\peripheral\evsys\plib_evsys.h</file>
@@ -9662,7 +9662,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\system\debug\sys_debug.h</file>
-         <hash>bc6fa321b0be542d074e4564065b7fd69f52556486ac3d892d315b51c434f9ec</hash>
+         <hash>4162d9e1fab93b8b33f6c8a24726f5dc287ea05c31e3ab984c3c920c725d0882</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\system\fs\fat_fs\file_system\ff.c</file>
@@ -9886,11 +9886,11 @@
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_version.h</file>
-         <hash>8cda7ac3ff6f0eb5e83c4fe613dd195151b24da54167f5c3c007e599a03f1edc</hash>
+         <hash>2de01ae2556a38eb82c389de23c701805ec63308cfbcf3f84cb12141589b0858</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\core_cm33.h</file>
-         <hash>d5c5fc559cbbbc1e495af4ac2ea81959bcadb35aa69ecb1c20d183c3ed9cfeae</hash>
+         <hash>cc4f19f2f8388190c60b34544b13b21f471687b72e7e373bdb5add65166713bb</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\mpu_armv8.h</file>
