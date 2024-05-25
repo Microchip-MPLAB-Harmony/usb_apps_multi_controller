@@ -3914,11 +3914,11 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\configuration.h</file>
-         <hash>18127bf8a8ffb41f62ddbcb88d770fe6c86937f5e8be25b6fd1033d6eed2539a</hash>
+         <hash>b69d52a711e74682c4f2305aa34ff6f6c9547f6e97ad0751921ca9ab0d707340</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\definitions.h</file>
-         <hash>f0367fe92bde24718d38bba148b2a5a7b29af1e982133123838a1242226b7480</hash>
+         <hash>798937ccc12d17bb299a471e44fcb883c58708f6186c2cfbdda7394c204862a1</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\device.h</file>
