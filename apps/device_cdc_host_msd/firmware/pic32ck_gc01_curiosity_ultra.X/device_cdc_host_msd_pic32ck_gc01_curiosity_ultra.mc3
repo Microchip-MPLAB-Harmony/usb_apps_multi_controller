@@ -7663,11 +7663,11 @@
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\configuration.h</file>
-         <hash>77f57cc0187c001eccf1bc2fff07095de441d09c73f902de373411b6a6832e65</hash>
+         <hash>89057c495ff417ff3aac923057a8ac52ccf4a978db9cb275040c886f1749d2b3</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\definitions.h</file>
-         <hash>0b7f8d4a8e784af9bb04ad92502f4a289fa7721658e42e0d147eb4a85afe3a76</hash>
+         <hash>4e2ea3858aa86f77b71fb13e5fcd9a3fc79653c5975ab1207e096efa8f928c21</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\device.h</file>
@@ -7707,11 +7707,11 @@
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbfsv1\src\drv_usbfsv1_host.c</file>
-         <hash>458063c6278240b6515b176ea672b146dd3658327771cdf3584f046bd9fcc606</hash>
+         <hash>e7404b47a161630b319458c688f719b265390de0cc60ddd4fa68bf263e05efd3</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbfsv1\src\drv_usbfsv1_local.h</file>
-         <hash>0834ca7f0d9b69a800638f56d7a01e445a0addcc84d97e2597309dfbb2861cb4</hash>
+         <hash>43e52ea3bd0e33fe3d272e9ef610d6b1b9d4cf3395a80fd9eba16ba6986d96ee</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbfsv1\src\drv_usbfsv1_variant_mapping.h</file>
@@ -7723,15 +7723,15 @@
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\drv_usbhs.c</file>
-         <hash>266167e6353505f85ac16d4632bc6865c6822910d8bad60699fc57d2d4971bc1</hash>
+         <hash>2f7553beb7062c42d535c7b32a66efea6f72750caf3b83ecf4c596b935bce8c9</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\drv_usbhs_device.c</file>
-         <hash>1c51c8db0c842dbf2a3ce36a76f28cb67edb3620f7956402f411b127a78082f0</hash>
+         <hash>99cf2273c39cfe30625d930899d49eb5784a4845aa791463c6ff54e4ace6dce3</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\drv_usbhs_local.h</file>
-         <hash>75267250c31977aed5e9aa567140d4511a3d2aaa38bbdadaee873444d1eb2eb3</hash>
+         <hash>cbcd0b7f8369b86932e1510d79184a6509eb42e73b29c622c85e34460158393d</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32ck_gc01_curiosity_ultra\driver\usb\usbhs\src\drv_usbhs_variant_mapping.h</file>
