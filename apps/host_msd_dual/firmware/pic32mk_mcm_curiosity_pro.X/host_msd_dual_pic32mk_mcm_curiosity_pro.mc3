@@ -3790,7 +3790,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\definitions.h</file>
-         <hash>c5e5e357326eabb060dc9120a630984e93522d8f822fbbb5aef5fe414eb81b52</hash>
+         <hash>c23ee1c1c4fab1b59ee585a59f1189afda5ef7ef38976e3bb1a51656fd5f211a</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\device.h</file>
@@ -3818,7 +3818,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\driver\usb\usbfs\src\drv_usbfs.c</file>
-         <hash>1110c731185aa13c1cbc60ace7b43af82e174ce976a6ad454b5630c9df7d9abe</hash>
+         <hash>3d9c64056356ac7c90f6ecdeeffbda1bd0f394bcc7576f2614cd530c900bb6fa</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32mk_mcm_curiosity_pro\driver\usb\usbfs\src\drv_usbfs_host.c</file>
