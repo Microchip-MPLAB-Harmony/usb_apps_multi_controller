@@ -1,9 +1,4 @@
----
-parent: Harmony 3 USB Multi-Controller application examples
-title: CDC Device and MSD Host Example
-has_children: false
-has_toc: false
----
+
 
 [![MCHP](https://www.microchip.com/ResourcePackages/Microchip/assets/dist/images/logo.png)](https://www.microchip.com)
 
