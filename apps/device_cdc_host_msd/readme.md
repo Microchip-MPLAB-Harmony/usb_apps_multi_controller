@@ -6,4 +6,4 @@
 
 This application demonstrates the ability of the MPLAB Harmony USB Stack to support USB Device and Host operation on a PIC32 microcontroller with two USB Controllers.  
 
-[Click here to be redirected to the demo application documentation.](../../docs/docs_md/GUID-30CAE910-CF12-4A31-8D9F-DC5C6AA33295.md)
+[Click here to be redirected to the demo application documentation.](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=USB_APPS_MULTI_CONTROLLER_CDC_DEVICE_AND_MSD_HOST_EXAMPLE&redirect=true)
