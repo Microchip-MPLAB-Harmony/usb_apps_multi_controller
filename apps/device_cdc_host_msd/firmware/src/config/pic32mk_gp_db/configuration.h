@@ -184,6 +184,15 @@ extern "C" {
 /* Alignment for buffers that are submitted to USB Driver*/ 
 #define USB_ALIGN  CACHE_ALIGN
 
+/* Maximum instances of CDC function driver */
+#define USB_DEVICE_CDC_INSTANCES_NUMBER                     1U
+
+
+/* CDC Transfer Queue Size for both read and
+   write. Applicable to all instances of the
+   function driver */
+#define USB_DEVICE_CDC_QUEUE_DEPTH_COMBINED                 3U
+
 // *****************************************************************************
 // *****************************************************************************
 // Section: USB Host Layer Configuration
@@ -207,15 +216,6 @@ extern "C" {
 
 /* The maximum number of pipes that the USB Host layer can utilize. */
 #define USB_HOST_PIPES_NUMBER                               10
-
-/* Maximum instances of CDC function driver */
-#define USB_DEVICE_CDC_INSTANCES_NUMBER                     1U
-
-
-/* CDC Transfer Queue Size for both read and
-   write. Applicable to all instances of the
-   function driver */
-#define USB_DEVICE_CDC_QUEUE_DEPTH_COMBINED                 3U
 
 
 
