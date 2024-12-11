@@ -74,14 +74,14 @@
 #define LED2_On()         (PORT_REGS->GROUP[1].PORT_OUTCLR = 1UL << 22)
 #define LED2_Off()        (PORT_REGS->GROUP[1].PORT_OUTSET = 1UL << 22)
 
-/*** SWITCH Macros for SWITCH ***/
-#define SWITCH_Get()     ((PORT_REGS->GROUP[1].PORT_IN >> 24) & 0x01)
-#define SWITCH_STATE_PRESSED   0
-#define SWITCH_STATE_RELEASED  1
 /*** SWITCH Macros for SWITCH2 ***/
 #define SWITCH2_Get()     ((PORT_REGS->GROUP[2].PORT_IN >> 23) & 0x01)
 #define SWITCH2_STATE_PRESSED   0
 #define SWITCH2_STATE_RELEASED  1
+/*** SWITCH Macros for SWITCH ***/
+#define SWITCH_Get()     ((PORT_REGS->GROUP[1].PORT_IN >> 24) & 0x01)
+#define SWITCH_STATE_PRESSED   0
+#define SWITCH_STATE_RELEASED  1
 
 
 
