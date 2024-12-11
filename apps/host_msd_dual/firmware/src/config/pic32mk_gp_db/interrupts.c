@@ -77,17 +77,17 @@ void USB_2_Handler (void);
 // Section: System Interrupt Vector definitions
 // *****************************************************************************
 // *****************************************************************************
-void __ISR(_CORE_TIMER_VECTOR, ipl1SOFT) CORE_TIMER_Handler (void)
+void __attribute__((used)) __ISR(_CORE_TIMER_VECTOR, ipl1SOFT) CORE_TIMER_Handler (void)
 {
     CORE_TIMER_InterruptHandler();
 }
 
-void __ISR(_USB_1_VECTOR, ipl1SOFT) USB_1_Handler (void)
+void __attribute__((used)) __ISR(_USB_1_VECTOR, ipl1SOFT) USB_1_Handler (void)
 {
     DRV_USBFS_USB1_Handler();
 }
 
-void __ISR(_USB_2_VECTOR, ipl1SOFT) USB_2_Handler (void)
+void __attribute__((used)) __ISR(_USB_2_VECTOR, ipl1SOFT) USB_2_Handler (void)
 {
     DRV_USBFS_USB2_Handler();
 }
