@@ -5,6 +5,32 @@
 
 # Microchip MPLAB® Harmony 3 Release Notes
 
+## Harmony 3 USB Multi-Controller application examples v3.7.0
+
+### Development kit and demo application support
+
+Following table provides number of peripheral library examples available for different<br /> development kits.
+
+|Development Kits|MPLAB X applications|
+|----------------|--------------------|
+|[PIC32CZ CA80 Curiosity Ultra development board](https://file+.vscode-resource.vscode-cdn.net/c%3A/USB_3_12_RELEASE/usb_apps_multi_controller/(https://www.microchip.com/en-us/development-tool/ea61x20a))|3|
+|[PIC32MK General Purpose \(GP\) Development Board](https://www.microchip.com/developmenttools/ProductDetails/dm320106)|3|
+|[PIC32MK MCM Curiosity Pro Development Board](https://www.microchip.com/Developmenttools/ProductDetails/EV31E34A)|3|
+|[PIC32CK GC Curiosity Ultra Development Board](https://www.microchip.com/en-us/development-tool/ev44p93a)|3|
+**New Features**
+
+-   Regenerated all the demo configurations with the latest Harmony Core and USB repositories.
+
+**Known Issues**
+
+-   After a power cycle, the reset button on the PIC32CZ CA80 Curiosity Ultra board must be pressed to get the program running.
+
+**Development Tools**
+
+-   [MPLAB® X IDE v6.20](https://www.microchip.com/mplab/mplab-x-ide)
+-   MPLAB® X IDE plug-ins:
+    -   MPLAB® Code Configurator \(MCC\) v5.5.1
+-   [MPLAB® XC32 C/C++ Compiler v4.45](https://www.microchip.com/mplab/compilers)
 ## Harmony 3 USB Multi-Controller application examples v3.6.0(June, 2024)
 
 ### Development kit and demo application support
